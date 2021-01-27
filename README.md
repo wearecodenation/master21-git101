@@ -1,7 +1,5 @@
 # master21-git101
 
-First git project
-
 
 -[Github Profile](https://github.com/boothscript)
 -[Portfolio](https://boothscript.github.io/portfolio2)
