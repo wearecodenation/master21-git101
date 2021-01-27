@@ -1,4 +1,4 @@
 # master21-git101
 First git project
-[profile link](https://github.com/ggemcila)
-[page link](https://ggemcila.github.io/)
+[github profile link](https://github.com/ggemcila)
+[github page link](https://ggemcila.github.io/)
