@@ -1,0 +1,1 @@
+I am 32 from Liverpool. I joined this course to hopefully become a web developer.
