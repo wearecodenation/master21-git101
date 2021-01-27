@@ -1,9 +1,7 @@
 # master21-git101
 First git project
 
-[Riley's Github profile](https://github.com/Riley142)
-
-[Riley's Github page](https://riley142.github.io/Portfolio/)=
+Riley Croft - [Github profile](https://github.com/Riley142)  [Github page](https://riley142.github.io/Portfolio/)
 
 Ruaraidh Plummer - [Click here](https://github.com/ruarplum), to see my github profile
 
