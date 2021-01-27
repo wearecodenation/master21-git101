@@ -24,3 +24,12 @@ th, td {
   body {
       background-color: grey;
   }
+  iframe {
+    border: 1px solid black;
+    width: 100%;
+    align-items: center;
+}
+
+.output {
+    background: #eee;
+}
