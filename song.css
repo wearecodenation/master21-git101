@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Handlee&family=Sacramento&display=swap');
 
+footer {
+        background-color:  rgb(191, 137, 252);
+        font-family:'Sacramento';
+        font-size: 30px;
+        text-align: center;
+        background-color: rgb(204, 160, 245);
+        color: white;
+        height: 50px;
+        }
+header { 
+        font-family:'Handlee';
+        font-size: 80px;
+        text-align: center;
 
-
-.footer {
-        color: black;
-        font-family: ('Flower&display');
+}
+table {
+        border: 3px rgb(25, 17, 26) outset;
+        width: 40%;
+        align-items: center;
+        
 }
