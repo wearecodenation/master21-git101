@@ -22,5 +22,9 @@ table {
         border: 3px rgb(25, 17, 26) outset;
         width: 40%;
         align-items: center;
+        margin: auto;
         
 }
+table a:link{    margin: auto;
+        }
+        
