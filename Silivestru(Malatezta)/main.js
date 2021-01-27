@@ -56,21 +56,29 @@ let christmasPresents = [
 
 // 5. Show an example of a for loop//
 
-let minHeight = [
-    "1.80",
-    "1.81",
-    "1.82",
-    "1.83",
-    "1.84",
-    "1.85",
-    "1.86",
-    "1.87",
-    "1.88",
-    "1.89"];
+let items= [
+    "carrots",
+    "peppers",
+    "coconut",
+    "tomato",
+    "onion",
+    "garlic",
+    "potatos",
+    "toothbursh",
+    "dishwasher gel",
+    "aluminium foil"];
 
-let maxHeight = [
-    "1.90"];
 
-    for (i = 0; minHeight<maxHeight; i++){
+
+    for (i = 0; i<items.length; i++){
         console.log ("You are allowed to enter this park")
+    }
+
+// 6. Show and example of while loop//
+
+let minHeight = 180,
+
+while (minHeight> 190){
+        console.log ("You are allowed to enter this park");
+        minHeight++;
     }
