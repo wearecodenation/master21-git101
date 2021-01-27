@@ -1,2 +1,1 @@
-# master21-git101
-First git project
+Evan Morris: [GitHubPages](https://evanmorrisdev.github.io/), [GitHubProfile](https://github.com/evanmorrisdev). 
