@@ -81,4 +81,23 @@ let minHeight = 180,
 while (minHeight> 190){
         console.log ("You are allowed to enter this park");
         minHeight++;
-    }
+}
+
+// 7.Show an example of a function//
+
+let pin = 9876
+let balance = 50
+
+const Withdraw = (amount, attemptedPin) => {
+
+
+if (attemptedPin != pin) {
+   console.log ("Wrong pin mister"); 
+   return;
+}
+
+if (amount > balance) {
+    console.log(`Withdrwaing $${amount}`);
+    return;
+}
+    Withdraw (50,9876);
