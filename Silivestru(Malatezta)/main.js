@@ -41,3 +41,15 @@ switch(favDish){
     default:
     console.log("You are to picky when choosing what to eat. Sorry!");
 }
+
+//4. Show an example of an array//
+
+let christmasPresents = [
+    "Silvester - Car",
+    "Andrei - T-shirt",
+    "Veronica - Bracelet",
+    "Igor - Watch"];
+
+    console.log(christmasPresents)
+    console.log(christmasPresents.length)
+    christmasPresents.push("Malena- ring");
