@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(157, 255, 130, 0.701);
+}
+
+h1, h2, h3 {
+    color: white;
+    text-shadow: 1px 1px #5634ad,
+                2px 2px #48b79b,
+                3px 3px #efa321,
+                4px 4px #3bb0f4;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+}
