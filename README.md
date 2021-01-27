@@ -1,5 +1,8 @@
 # master21-git101
 
+Jake Dibbert Github profile - https://github.com/JakeyD11
+Jake Dibbert Gthub pages - https://jakeyd11.github.io/
+
 Ruaraidh Plummer - [Click here](https://github.com/ruarplum), to see my github profile
 
 Nicholas Ferrari [Github](https://github.com/NickFerra), [GitHub Pages Website](https://nickferra.github.io/NickWeb/)
