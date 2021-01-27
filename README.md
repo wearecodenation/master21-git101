@@ -1,8 +1,7 @@
-# master21-git101
-
-
 [Amelia Riding] (https://github.com/Melia-create) (https://melia-create.github.io/aboutme/)
 
+Jake Dibbert Github profile - https://github.com/JakeyD11
+Jake Dibbert Gthub pages - https://jakeyd11.github.io/
 
 Ruaraidh Plummer - [Click here](https://github.com/ruarplum), to see my github profile
 
