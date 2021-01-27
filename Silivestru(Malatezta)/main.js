@@ -53,3 +53,24 @@ let christmasPresents = [
     console.log(christmasPresents)
     console.log(christmasPresents.length)
     christmasPresents.push("Malena- ring");
+
+// 5. Show an example of a for loop//
+
+let minHeight = [
+    "1.80",
+    "1.81",
+    "1.82",
+    "1.83",
+    "1.84",
+    "1.85",
+    "1.86",
+    "1.87",
+    "1.88",
+    "1.89"];
+
+let maxHeight = [
+    "1.90"];
+
+    for (i = 0; minHeight<maxHeight; i++){
+        console.log ("You are allowed to enter this park")
+    }
