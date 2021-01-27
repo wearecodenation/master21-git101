@@ -10,7 +10,16 @@ h1, h2, h3 {
                 4px 4px #3bb0f4;
 }
 
-iframe {
-    display: flex;
-    justify-content: center;
+.video {
+    position: relative;
+    left: 50px;
+}
+.lyrics {
+    padding-left: 4%;
+    position: absolute;
+    left: 10px;
+
+}
+.original {
+    padding-right: 10%;
 }
