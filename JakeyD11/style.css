@@ -33,3 +33,27 @@ th, td {
 .output {
     background: #eee;
 }
+.site-header {
+    color: #74b1be;
+    background-color: #2f3241;
+    border-bottom: 1px solid #e8e8e8;
+    border-bottom-color: #1a1b23;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+.site-header nav a {
+    padding-left: 30px;
+}
+.site-header nav a:link, a:active {
+    text-decoration: none;
+    color: white;
+}
+.site-header nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+.site-header nav a:hover {
+     color: pink;
