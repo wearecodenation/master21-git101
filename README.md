@@ -1,10 +1,4 @@
 # master21-git101
-
-Jake Dibbert Github profile - https://github.com/JakeyD11
-Jake Dibbert Gthub pages - https://jakeyd11.github.io/
-
-Ruaraidh Plummer - [Click here](https://github.com/ruarplum), to see my github profile
-
 Nicholas Ferrari [Github](https://github.com/NickFerra), [GitHub Pages Website](https://nickferra.github.io/NickWeb/)
 
 Jennifer Carey - [Click here](https://github.com/jennifer-carey) to see my GitHub profile and [click here](https://jennifer-carey.github.io/) to see my GitHub Pages.
