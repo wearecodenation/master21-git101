@@ -10,3 +10,20 @@ if (PIN===4321){
 else {
     console.log("Sorry! Wrong PIN, try again.")
 }
+
+//Showing a switch case//
+let num=60
+
+switch(true) {
+    case (num % 6 == 0 && num % 10 == 0):
+        console.log("Fizz Buzz");
+        break;
+    case (num % 6 == 0):
+        console.log("Fizz");
+        break;
+    case (num % 10 == 0):
+        console.log("Buzz");
+        break;
+        default:
+            console.log(num)
+}
