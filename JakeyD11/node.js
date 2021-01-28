@@ -2,11 +2,20 @@ let program = "Git";
 let task = " ";
 let mood =" ";
 let message = " ";
+let faveProgram = [
+    "VS Code",
+    "Photoshop",
+    "GitKraken",
+]
+
+for (let programIndex = 0; programIndex < faveProgram.length; programIndex++) {
+    console.log(faveProgram[programIndex]);
+}
 
 message = "Hello there";
 console.log(message);
 
-program = "VS code";
+program = "Git";
 mood = "Good";
 
 if (program == "Git" && mood =="Good") {
@@ -30,3 +39,4 @@ switch(program){
         default:
             console.log("Must be the weekend if you are doing nothing!")
 }
+
