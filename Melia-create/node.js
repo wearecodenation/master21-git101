@@ -10,3 +10,22 @@ if (password.length <=8) {
 else if (password.length >=8) {
     console.log("Your Password is set")
 }
+
+//3
+let pizzaTopping ="Mushroom";
+
+switch(pizzaTopping) {
+    case "Pepperoni":
+    case "Mushroom":
+    console.log("These are good ingredients") 
+    break;
+    case "sausage": 
+    case  "Onion":
+        console.log(`I don't mind having ${pizzaTopping} on my pizza.`)
+        break;
+    case "Pineapple":
+        console.log(`${pizzaTopping} should never be on pizza!`)
+        break;
+    default:
+        console.log("What?");
+}
