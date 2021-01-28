@@ -67,3 +67,23 @@ table, th, td {
       font-size: 20px;
       padding-top: 30px;
   }
+
+  footer {
+      height: 300px;
+      color: rgb(89,182,143);
+      background:url(background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .linkedin {
+      background: url(linkedin.png);
+      background-size: 5%;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 25px;
+      margin-bottom: 100px;
+      padding-top: 250px;
+
+  }
