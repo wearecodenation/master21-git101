@@ -1,10 +1,10 @@
 console.log("Hello World");
 
-let favefilm = (`Star Wars`);
+let favefilm = `star wars`;
 
-if (favefilm <= `star wars`);
+if (favefilm == `star wars`) {
 console.log("SORRY WE DONT HAVE THAT");
-
+}
 function movieLine(tagLine) {
     switch (tagLine) {
     case `Arnold`:
@@ -33,3 +33,8 @@ do {
   i += 1;
   console.log(i);
 } while (i < 100);
+
+function say(name) {
+    console.log('Hi '+ name);
+}
+say('Phil');

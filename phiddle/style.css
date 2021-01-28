@@ -21,5 +21,8 @@ h3 {
 
 iframe {
   border: 10px solid black;
-  margin-left: 30%;
+  margin-left: 0;
+}
+label {
+  color: white;
 }
