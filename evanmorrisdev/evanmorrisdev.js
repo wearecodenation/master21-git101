@@ -1,7 +1,7 @@
 // In your user area write a small nodejs program, this should demonstrate your understanding of the core principles we studied in week 1. It should include an example of:
 
 
-// Showing a switch case
+
 // Show an example of an array
 // Show an example of a for loop
 // Show an example of a do loop
@@ -20,5 +20,20 @@ if ((firstNumber * secondNumber) > (firstNumber + secondNumber)) {
     console.log(firstNumber + " x " + secondNumber + " is greater than " + firstNumber + " + " + secondNumber);
 }
 else {
-    console.log(firstNumber + " x " + secondNumber + " is greater than " + firstNumber + " + " + secondNumber);
+    console.log(firstNumber + " + " + secondNumber + " is greater than " + firstNumber + " x " + secondNumber);
+}
+
+//3. Showing a switch case
+let firstName = "Evan";
+
+switch (firstName) {
+    case "John":
+        console.log("John Has Been Added to the JS File");
+        break;
+    case "Cameron":
+        console.log("Cam Has Been Added to the JS File");
+    case "Evan":
+        console.log("Evan Has Been Added to the JS File");
+    default:
+        console.log("No Known Name Has Been Added To the JS File");
 }
