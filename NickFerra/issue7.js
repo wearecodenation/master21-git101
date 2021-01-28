@@ -70,3 +70,17 @@ do{
 console.log(result);
 
 //example of function
+let orderCount = 0;
+
+const takeOrder = (top1, top2) => {
+    console.log(`Pizza with ${top1} ${top2}`);
+    orderCount++
+
+
+
+}
+
+takeOrder("pineapple", "Cheese");
+takeOrder("pineapple", "ham");
+
+console.log(`Total orders ${orderCount}`);
