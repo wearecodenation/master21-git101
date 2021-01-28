@@ -43,5 +43,19 @@ let strawberryDaiquiri = [
 //for loop
 console.log ("To make a Strawberry Daiquiri you will need:")
 for (let index = 0; index < strawberryDaiquiri.length; index++){
-    console.log (strawberryDaiquiri[index])
+    console.log (strawberryDaiquiri[index]);
 }
+
+//do loop
+console.log ("To make a Pina Colada you will need:");
+let pinaColada = [
+    "Pineapple juice",
+    "White rum",
+    "Coconut cream",
+    "Pineapple wedge"
+];
+let index = 0;
+do {
+    console.log (pinaColada[index]);
+    index++;
+} while (index < pinaColada.length)
