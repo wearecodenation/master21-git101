@@ -14,6 +14,7 @@ else if (password.length >=8) {
 //3
 let pizzaTopping ="Mushroom";
 
+//4
 switch(pizzaTopping) {
     case "Pepperoni":
     case "Mushroom":
@@ -29,3 +30,4 @@ switch(pizzaTopping) {
     default:
         console.log("What?");
 }
+
