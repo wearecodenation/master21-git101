@@ -28,8 +28,29 @@ switch(fruit){
         console.log("please pick a fruit");
 }
 
-
 //example of an array
+let favWeb = [
+    "Reddit\n",
+    "Facebook\n",
+    "MySpace\n"
+];
+
+console.log(`${favWeb}`);
+
+const newWeb = (web) => {
+    favWeb.push(`${web}\n`);
+}
+
+newWeb("Twitter");
+
+newWeb("Amazon");
+
+console.log(`${favWeb}`);
+ 
+console.log(`${favWeb.pop()}`);
+
+console.log(`${favWeb}`);
+
 
 //example of for loop
 
