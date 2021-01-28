@@ -48,6 +48,29 @@ h2 {
     padding:0 2rem;
 }
 
+
+.vid a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: solid 5px rgba(142, 142, 233, 0.5);
+}
+
+.vid a:link {
+    color: rgb(142, 142, 233);
+}
+.vid a:visited {
+    color: rgb(105, 105, 182);
+}
+.vid a:hover {
+    color:  rgb(233, 160, 160);
+}
+.vid a:active {
+    color: rgb(81, 81, 141);
+}
+
+
 @media only screen and (max-width: 850px) {
     .wrapper {
         flex-direction: column;
