@@ -1,0 +1,13 @@
+body {
+    background-image: url("../jadavey91/img/musicbackground.jpg");
+    background-size: cover;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    border: 1px solid #333;
+}
