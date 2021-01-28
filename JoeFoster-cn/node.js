@@ -21,5 +21,18 @@ console.log(`My name is ${myname} and I am ${myage} years old, can I have some w
     else { 
         (console.log("No, get out now!"))
     }
+
+const computer = "Mac";
+
+switch (computer) {
+    case "Windows":
+        console.log("This is the superior machine");
+    break;
+    case "Linux":
+        console.log("This is the superior machine");
+    break;
+    case "Mac":
+        console.log("This is my machine");
+}
     
     
