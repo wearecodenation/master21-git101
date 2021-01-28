@@ -27,3 +27,14 @@ switch(car){
         console.log(`You have a mid range car`);
         break;
 }
+
+//Part 4 show an array
+
+let footballTeams = [
+    "Arsenal",
+    "Chelsea",
+    "Liverpool",
+    "Man United"
+];
+
+console.log(footballTeams);
