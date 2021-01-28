@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap'); 
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(241, 225, 225);
+}
+
+.wrapper {
+    /* display: grid;
+    grid-template-columns:  1fr 1fr;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+th{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(142, 142, 233);
+    background: rgb(241, 225, 225);
+}
+td {
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+tr:nth-child(even){               
+    background: linear-gradient(45deg, rgb(233, 160, 160), rgb(142, 142, 233));
+}
+
+tr:nth-child(odd){               
+    background: linear-gradient(45deg, rgb(142, 142, 233), rgb(233, 160, 160));
+    font-weight: 600;
+}
+
+h2 { 
+    color: rgb(142, 142, 233);    
+    text-transform: uppercase;
+}
+
+
+.tab, .vid {
+    padding:0 2rem;
+}
+
+
+.vid a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: solid 5px rgba(142, 142, 233, 0.5);
+}
+
+.vid a:link {
+    color: rgb(142, 142, 233);
+}
+.vid a:visited {
+    color: rgb(105, 105, 182);
+}
+.vid a:hover {
+    color:  rgb(233, 160, 160);
+}
+.vid a:active {
+    color: rgb(81, 81, 141);
+}
+
+footer p {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(142, 142, 233);
+    text-transform: uppercase;
+    border-top: 2px solid rgb(105, 105, 182);
+    border-bottom: 2px solid rgb(105, 105, 182);
+}
+
+
+@media only screen and (max-width: 850px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
