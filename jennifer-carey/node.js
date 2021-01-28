@@ -42,3 +42,17 @@ switch (day) {
    default:
       console.log("Error: what happened to the days?");
 }
+
+// Show an example of an array
+
+let bestBands = [
+   "Queens of the Stone Age",
+   "Blur",
+   "Steve Gunn",
+   "Fleet Foxes",
+   "Alice in Chains"
+];
+
+let bandOfTheDay = bestBands[Math.floor(Math.random()*bestBands.length)];
+
+console.log(`Today, I'm going to listen to ${bandOfTheDay}.`);
