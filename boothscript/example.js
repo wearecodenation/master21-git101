@@ -28,3 +28,9 @@ console.log(firstTeamPlayers);
 for (let i = 0; i < firstTeamPlayers.length; i++) {
   console.log(singSong(firstTeamPlayers[i]));
 }
+
+function isMyTeamTheBest(team) {
+  return team === 'Spurs' ? 'Yes' : 'No';
+}
+
+console.log(isMyTeamTheBest('Liverpool'));
