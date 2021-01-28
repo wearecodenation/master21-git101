@@ -1,0 +1,59 @@
+
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+  }
+  th, td {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  table {
+    border-spacing: 5px;
+  }
+  h2 {
+      text-align: center;
+      color: whitesmoke;
+      text-shadow: black 4px 4px;
+      font-size: 2em;
+      font-weight: 400;
+  }
+  body {
+      background-color: rgb(184, 181, 181);
+  }
+  iframe {
+    border: 1px solid black;
+    width: 100%;
+    align-items: center;
+}
+
+.output {
+    background: #eee;
+}
+.site-header {
+    color: #74b1be;
+    background-color: #2f3241;
+    border-bottom: 1px solid #e8e8e8;
+    border-bottom-color: #1a1b23;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+.site-header nav a {
+    padding-left: 30px;
+}
+.site-header nav a:link, a:active {
+    text-decoration: none;
+    color: white;
+}
+.site-header nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+.site-header nav a:hover {
+     color: pink;
