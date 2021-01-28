@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  margin: auto;
+}
+
+h1,
+h2 {
+  margin-bottom: 2em;
+}
+
+thead tr th {
+  text-align: left;
+  padding-bottom: 1em;
+  font-size: 1.25rem;
+}
+
+td {
+  padding: 1em 1em 1em 0;
+}
+
+main {
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  margin-bottom: 4em;
+}
