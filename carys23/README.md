@@ -1,2 +1,2 @@
-Hello I am Carys originally from North Wales but some people same I sound australian.
-In my space time post lockdown I like to run or walk and play with my cat.
+Hello I'm carys I'm a photographer learning HTML, javascript and CSS.
+During lockdown in my spare time I like to go for runs in the park, long walks and playing with my cat.
