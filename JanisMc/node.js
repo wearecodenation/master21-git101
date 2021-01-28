@@ -28,3 +28,8 @@ let array = [
     "John Bonham",
     "John Paul Jones",
 ];
+
+for(let ledZepInd = 0; ledZepInd < array.length; ledZepInd++){
+    console.log(array[ledZepInd])
+}
+
