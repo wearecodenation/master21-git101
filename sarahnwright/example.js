@@ -40,3 +40,8 @@ let strawberryDaiquiri = [
     "Strawberry liqueur",
     "Lime juice"
 ];
+//for loop
+console.log ("To make a Strawberry Daiquiri you will need:")
+for (let index = 0; index < strawberryDaiquiri.length; index++){
+    console.log (strawberryDaiquiri[index])
+}
