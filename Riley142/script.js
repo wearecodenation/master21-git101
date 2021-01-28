@@ -61,3 +61,17 @@ notAVeryCreativeFunction = () => {
     console.log('Sorry lacking creativity for something nicer!')
 }
 notAVeryCreativeFunction();
+
+
+// #8 Small program using  prompt and alert
+alert("Hi, this is an a annoying alert!");
+let answer = prompt("Rate how annoying it is on a scale 1 to 10")
+
+
+if (answer < 5 ) {
+    alert("That's not so bad!");
+} else if (answer >= 5) { 
+    alert("Yeah... Sorry!");
+} else {
+    alert("Wrong number!");
+}
