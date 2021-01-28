@@ -85,3 +85,14 @@ h2 {
 .table-songs tbody tr:nth-of-type(even) {
    background-color: rgba(122, 61, 41, 0.2);
 }
+
+/* ----- Video Styles ----- */
+
+.video {
+   display: block;
+   margin: 0 auto;
+   width: 60%;
+   height: 350px;
+}
+
+
