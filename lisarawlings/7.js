@@ -71,3 +71,9 @@ while(currentCard != "Diamond"){
 
 }
 console.log(currentCard);
+
+//Function//
+const startGrindBeans = () => { //declare new function//
+    console.log("Grinding beans for 30 seconds");
+}
+startGrindBeans();
