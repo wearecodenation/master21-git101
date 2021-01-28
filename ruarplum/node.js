@@ -41,17 +41,25 @@ let num = 11;
         console.log("Fizz Buzz");
      }else if (num % 3 === 0){
     console.log("Fizz");
-}else if (num % 5 ===0){
+    }else if (num % 5 ===0){
     console.log("Buzz");
-}else{
+    }else{
     console.log(`No Fizz or Buzz applicable to ${num}`);
 }
 
-
-
-
 // 4. Show an example of an array
 
+let boatTypes = [
+    "jeanneau",
+    "hanse",
+    "swan",
+    "oyster"
+]
+console.log(boatTypes)
+
+boatTypes.push("Sigma")
+
+console.log(boatTypes)
 
 
 // 5. Show an example of a for loop
