@@ -35,8 +35,24 @@ switch (topping){
         console.log("what is this doing on a pizza!");
 }
 
+let num = 11;
+
+     if (num % 3 === 0 && num % 5 === 0){
+        console.log("Fizz Buzz");
+     }else if (num % 3 === 0){
+    console.log("Fizz");
+}else if (num % 5 ===0){
+    console.log("Buzz");
+}else{
+    console.log(`No Fizz or Buzz applicable to ${num}`);
+}
+
+
+
 
 // 4. Show an example of an array
+
+
 
 // 5. Show an example of a for loop
 
