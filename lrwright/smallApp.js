@@ -21,6 +21,10 @@ switch(meal) {
 }
 
 // Show an example of an array
+let faveGames = ['Ocarina of Time','Breath of the Wild', 'Majoras Mask','Stardew Valley'];
+
+console.log(faveGames)
+
 // Show an example of a for loop
 // Show an example of a do loop
 // Show an example of a function
