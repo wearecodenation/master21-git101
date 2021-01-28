@@ -81,3 +81,10 @@ iframe {
     padding-bottom: 10%;
 
 }
+
+footer {
+    font-family: "Permanent Marker", monospace;
+    text-align: center;
+    font-size: 170%;
+    text-decoration: none;
+}
