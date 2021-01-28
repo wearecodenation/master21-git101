@@ -19,12 +19,12 @@ body {
 
 h1, h2 {
    font-family: 'Ultra', serif;
-   color: #ffde38;
    letter-spacing: 0.1rem;
 }
 
 h1 {
    font-size: 2.488rem;
+   color: #ffde38;
    padding-top: 2em;
    padding-bottom: 1em;
 }
@@ -51,8 +51,8 @@ h2 {
 .table-songs {
    border-collapse: collapse;
    margin: 0 auto;
-   width: 70%;
-   min-width: 350px;
+   width: 60%;
+   min-width: 300px;
    background-color: white;
    color: black;
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
