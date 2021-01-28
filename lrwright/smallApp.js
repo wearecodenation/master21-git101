@@ -1,4 +1,3 @@
-
 // Printing something to the console
 console.log("Welcome to the app");
 
@@ -9,9 +8,18 @@ if (age<18) {
   } else {
     console.log("Have a pint")
   }
-console.log();
 
 // Showing a switch case
+
+let meal = "hotdogs"
+
+switch(meal) {
+    case "pizza": console.log("Oooh my favourite");
+    break;
+    default:
+        console.log("It'll do...")
+}
+
 // Show an example of an array
 // Show an example of a for loop
 // Show an example of a do loop
