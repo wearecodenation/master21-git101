@@ -61,9 +61,99 @@ boatTypes.push("Sigma")
 
 console.log(boatTypes)
 
+// --------------------------
 
-// 5. Show an example of a for loop
+let favFilms = [
+    "Batman",
+    "Jaws",
+    "Superman",
+    "Clueless",
+    "Emma"
+];
+favFilms.push("Gladiator", "Iron Man");
+console.log(favFilms);
+for (let filmsIndex = 0; filmsIndex < favFilms.length; filmsIndex++) {
+    console.log(favFilms[filmsIndex]);
+}
+
+// ------------------------------
+
+let favWeb = [
+    "google",
+    "youtube",
+    "equinoxsailing.com"
+]
+console.log(favWeb)
+
+favWeb.push("lss", "facebook")
+
+console.log(favWeb.length)
+
+console.log(favWeb)
+
+favWeb.pop()
+
+console.log(favWeb)
+
+favWeb.join()
+
+console.log(favWeb)
+console.log(favWeb[3])
+console.log(favWeb[8])
+favWeb[2] = "spotify"
+
+// // -----------------------------
+
+
+const square = (number) => number * number;
+const numbers = [1, 2, 3, 4, 5];
+const squares = numbers.map(square);
+const names = ["larry", "curly", "mo"];
+const shoutyNames = names.map(name => name.toUpperCase());
+const weirdlyCasedNames = names.map(name => {
+    const chars = name.split("").map(letter => letter.toLowerCase());
+    chars[1] = chars[1].toUpperCase();
+    return chars.join("");
+});
+console.log(square(5));
+console.log(numbers);
+console.log(squares);
+console.log(shoutyNames);
+console.log(weirdlyCasedNames);
+
+// // 5. Show an example of a for loop
+
+let boats = [
+    "jeanneau",
+    "hanse",
+    "swan",
+    "oyster",
+    "first 40"
+];
+    console.log(boats);
 
 // 6. Show an example of a do loop
 
+countdown = 5;
+
+do {
+    console.log(`java and git are going to do my nut in! ${countdown}...`);
+    countdown--;
+ } while (countdown > 0);
+ 
+ console.log(`I'm going to smash my computer!!`);
+
 // 7. Show an example of a function
+
+
+const weatherReport = (weather) => {
+    if (weather == "rainy" || weather == "windy") {
+       console.log(`The weather looks grim - better wrap up.`);
+    } else if (weather == "sunny") {
+       console.log(`Today is ${weather}, it's going to be great!`);
+    } else {
+       console.log(`It's looking unpredictable.`);
+    }
+ }
+ 
+ weatherReport("windy");
