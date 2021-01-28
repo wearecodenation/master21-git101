@@ -56,3 +56,15 @@ let bestBands = [
 let bandOfTheDay = bestBands[Math.floor(Math.random()*bestBands.length)];
 
 console.log(`Today, I'm going to listen to ${bandOfTheDay}.`);
+
+// Show an example of a for loop
+
+let bandItem;
+
+for (bandItem = 0; bandItem < bestBands.length; bandItem++) {
+   console.log(`One of my favourite bands is ${bestBands[bandItem]}.`);
+}
+
+// Show an example of a do loop
+
+
