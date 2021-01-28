@@ -47,3 +47,27 @@ let foodOrder = [
 for(let i = 0; i < foodOrder.length; i++){
     console.log(foodOrder[i]);
 }
+
+//Show an example of a do loop//
+let faveDrink = [
+    "Hot Chocolate",
+    "Vanilla Latte",
+    "Water",
+    "Fanta"
+];
+
+for(let i = 0; i < faveDrink.length; i++){
+    console.log(faveDrink[i]);
+}
+
+
+//Do loop//
+let cards=["Diamond", "Hearts", "Spades", "Clubs"]
+let currentCard ="Hearts";
+
+while(currentCard != "Diamond"){
+    console.log(currentCard);
+    currentCard = cards[Math.floor(Math.random()*4)];
+
+}
+console.log(currentCard);
