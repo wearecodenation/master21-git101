@@ -21,3 +21,10 @@ else {
         default:
         console.log("How are you?")
     }
+
+let array = [
+    "Robert Plant",
+    "Jimmy Page",
+    "John Bonham",
+    "John Paul Jones",
+];
