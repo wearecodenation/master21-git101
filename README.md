@@ -1,6 +1,7 @@
 # master21-git101
-
-First git projec
+First git project
+[My Profile] (https://github.com/Malatezta)
+[My Page] (https://malatezta.github.io/)
 
 Jake Dibbert - Github profile [Github-Profile](https://github.com/JakeyD11) - [Github-Pages](https://jakeyd11.github.io/)
 Ruaraidh Plummer - [Click here](https://github.com/ruarplum), to see my github profile
