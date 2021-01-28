@@ -52,7 +52,11 @@ console.log(`${favWeb.pop()}`);
 console.log(`${favWeb}`);
 
 
-//example of for loop
+//example of for loop checking if divisible by 7
+for (let i = 0; i < 6; i++) {
+    var randNum = Math.ceil(Math.random() *30);
+    console.log(`${randNum}, ${randNum % 7 == 0}`);
+}
 
 //example of do loop
 
