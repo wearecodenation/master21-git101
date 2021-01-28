@@ -1,0 +1,1 @@
+console.log("Please help, I think I'm losing my mind");
