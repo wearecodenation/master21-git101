@@ -45,7 +45,7 @@ let shoppingList = [
 
 console.log(shoppingList) 
 
-//example of a for loop
+//5.example of a for loop
 
 let siteList = [
     ("Facebook"),
@@ -56,4 +56,15 @@ for (let i = 0; i < siteList.length; i++) {
     console.log(siteList[i]);
     
 }
-    
+
+//6. example of a do loop
+let text = "";
+let i = 0;
+
+do {
+    text += "The number is " + i;
+    i++;
+}
+while (i < 5);
+{
+console.log(text)};
