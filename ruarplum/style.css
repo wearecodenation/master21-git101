@@ -1,0 +1,80 @@
+/* Font Import
+fira code */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+
+/* General page styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(117, 116, 116);
+    color: #ffffff;
+    font-family: "fira code", monospace;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.main-header{
+    background-color: black;
+    color: #00E532;
+    padding: 40px 0;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar styles  */
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: fuchsia;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+/* Table Styles  */
+
+.table{
+    border-collapse:collapse;
+    margin: 0 auto;
+    width: 60%%;
+    border: #00C2CB solid 2px;
+    min-width: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.15)
+}
+
+.table-header{
+    background-color: #00c2cb;
+    color: white;
+    font-size: 1.125rem;
+    text-align: center
+ }
+
+.table tr{
+    border: black;
+}
+
+/* Footer Styles  */
+.footer{
+    background-color: black;
+    padding: 20px
+}
