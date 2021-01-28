@@ -59,3 +59,14 @@ do {
     console.log (pinaColada[index]);
     index++;
 } while (index < pinaColada.length)
+
+//function
+const pressReleaseIce = (releaseIce) => {
+    if (releaseIce){
+        console.log ("Releasing Ice for 2 seconds");
+    }
+    else {
+        console.log("Ice not ready");
+    }
+}
+pressReleaseIce(true);
