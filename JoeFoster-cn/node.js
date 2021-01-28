@@ -44,5 +44,16 @@ let shoppingList = [
 ] 
 
 console.log(shoppingList) 
+
+//example of a for loop
+
+let siteList = [
+    ("Facebook"),
+    ("YouTube"),
+    ("Reddit"),
+];
+for (let i = 0; i < siteList.length; i++) {
+    console.log(siteList[i]);
     
+}
     
