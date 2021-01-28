@@ -54,3 +54,7 @@ tr a{
 a:hover{
    text-decoration: underline;
 }
+
+footer{
+    background-color: darkslategray;
+}
