@@ -1,26 +1,26 @@
-// let brain = "Fried";
+let brain = "Fried";
 
-// console.log(`Please help, I think I'm losing my mind it's ${brain}`);
+console.log(`Please help, I think I'm losing my mind it's ${brain}`);
 
-// if (brain == "Fried") {
-//     console.log("Please help me")
-// }
-// else {
-//     console.log("You must be doing ok")
-// }
+if (brain == "Fried") {
+    console.log("Please help me")
+}
+else {
+    console.log("You must be doing ok")
+}
 
-//     switch (brain) {
-//         case "Fried":
-//         case "Still fried":
-//         console.log("I think I'm losing my mind");
-//         break;
-//         case "Ok":
-//         case "Great":
-//         console.log("Seems like you're doing better");
-//         break;
-//         default:
-//         console.log("How are you?")
-//     }
+    switch (brain) {
+        case "Fried":
+        case "Still fried":
+        console.log("I think I'm losing my mind");
+        break;
+        case "Ok":
+        case "Great":
+        console.log("Seems like you're doing better");
+        break;
+        default:
+        console.log("How are you?")
+    }
 
 let array = [
     "Robert Plant",
@@ -30,10 +30,16 @@ let array = [
 ];
 
 for(let ledZepInd = 0; ledZepInd < array.length; ledZepInd++){
-    console.log(array[ledZepInd])
+    console.log(array[ledZepInd]);
 }
 
 do { 
-    array.pop()
+    array.pop();
 }
 while (array.length < 4);
+
+const addUp = (num1, num2) => {
+    return num1 + num2;
+}
+
+console.log(addUp(7, 13));
