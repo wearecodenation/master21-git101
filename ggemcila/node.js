@@ -23,7 +23,7 @@ switch (git1) {
         console.log("I'm ready to merge!");
         break;
 }
-/* 4) Showing an example of array */
+/* 4) Showing an example of an array */
 let activities = [
     "Spending quality time with my family",
     "Reading books",
@@ -33,3 +33,7 @@ let activities = [
     "Walking"
 ];
 console.log(activities);
+/* 5) Showing an example of a for loop */
+for (let listOfActivities =0; listOfActivities < activities.length; listOfActivities++){
+    console.log(activities[listOfActivities]);
+}
