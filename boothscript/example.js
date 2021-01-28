@@ -21,6 +21,10 @@ function singSong(player) {
 
 console.log(singSong('Moussa Sissiko'));
 
-const firstTeamPlayers = ['Loris', 'Kane', 'Son', 'Ndembele'];
+const firstTeamPlayers = ['Harry Kane', 'Son', 'Eric Dier', 'Ndembele'];
 
 console.log(firstTeamPlayers);
+
+for (let i = 0; i < firstTeamPlayers.length; i++) {
+  console.log(singSong(firstTeamPlayers[i]));
+}
