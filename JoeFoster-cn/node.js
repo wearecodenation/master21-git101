@@ -76,3 +76,12 @@ const foodOrder = (order1, order2) => {
 }
 
 foodOrder ("pizza", "noodles");
+
+
+//Issue #8
+//Add prompt and alert
+
+
+let question = prompt("What is your name?");
+alert(`${question}, here are my favourite songs`);
+
