@@ -31,7 +31,7 @@ h1 {
 
 h2 {
    font-size: 2.074rem;
-   padding-bottom: 1em;
+   padding-bottom: 0.5em;
 }
 
 /* ----- Layout Styles ----- */
@@ -40,12 +40,48 @@ h2 {
    width: 80%;
    max-width: 1000px;
    margin: 0 auto;
-   border: 2px solid red;
 }
 
 .section {
-   border: 2px solid red;
    padding-bottom: 3em;
 }
 
+/* ----- Table Styles ----- */
 
+.table-songs {
+   border-collapse: collapse;
+   margin: 0 auto;
+   width: 70%;
+   min-width: 350px;
+   background-color: white;
+   color: black;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-caption {
+   color: white;
+   text-align: left;
+   padding-bottom: 0.5em;
+}
+
+.table-header {
+   background-color: #7b3d29;
+   color: white;
+   font-size: 1.125rem;
+}
+
+.table-songs th {
+   padding: 0.7em 0.7em;
+}
+
+.table-songs td {
+   padding: 0.5em 0.5em;
+}
+
+.column-header {
+   font-weight: bold;
+}
+
+.table-songs tbody tr:nth-of-type(even) {
+   background-color: rgba(122, 61, 41, 0.2);
+}
