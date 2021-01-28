@@ -41,3 +41,8 @@ console.log(text);
 
 // Show an example of a function
 
+myFunction = () =>
+{
+    console.log("This is my function")
+}
+myFunction();
