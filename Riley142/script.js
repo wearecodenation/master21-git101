@@ -46,3 +46,12 @@ const allTheFancyDrinks = ["Matcha Latte", "Golden Latte", "Chai Latte"];
 for (i = 0; i < allTheFancyDrinks.length; i++) {
     console.log(allTheFancyDrinks[i]);
 }
+
+// Show an example of a do loop 
+let count = 0;
+
+do {
+count ++ ;
+console.log(count);
+}
+while (count < 3)
