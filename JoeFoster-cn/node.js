@@ -13,4 +13,13 @@ You should also include this ticket number in your git commits so we can see how
 let myage = 28;
 let myname = "Joe"; {
 
-console.log(`My name is ${myname} and I am ${myage} years old.`) }
+console.log(`My name is ${myname} and I am ${myage} years old, can I have some wine?`) }
+
+    if (myage > 18) {
+        (console.log("Yes you can have some wine, sir."));
+    }     
+    else { 
+        (console.log("No, get out now!"))
+    }
+    
+    
