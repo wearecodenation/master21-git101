@@ -67,4 +67,15 @@ for (bandItem = 0; bandItem < bestBands.length; bandItem++) {
 
 // Show an example of a do loop
 
+countdown = 5;
+
+do {
+   console.log(`Javascript is going to make me scream in ${countdown}...`);
+   countdown--;
+} while (countdown > 0);
+
+console.log(`AAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRGH!`);
+
+// Show an example of a function
+
 
