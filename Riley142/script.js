@@ -41,3 +41,8 @@ switch (day) {
 
 // Show an example of an array
 const allTheFancyDrinks = ["Matcha Latte", "Golden Latte", "Chai Latte"];
+
+// Show an example of a for loop
+for (i = 0; i < allTheFancyDrinks.length; i++) {
+    console.log(allTheFancyDrinks[i]);
+}
