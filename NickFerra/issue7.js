@@ -59,5 +59,14 @@ for (let i = 0; i < 6; i++) {
 }
 
 //example of do loop
+let result = " ";
+let i = 0;
+
+do{
+    i = i + 1;
+    result = result + i;
+} while (i < 5);
+
+console.log(result);
 
 //example of function
