@@ -40,6 +40,7 @@ let favFilms = [
     "Fear and Loathing"
 ];
 
+//5
 for(let filmsIndex = 0; filmsIndex < favFilms.length; filmsIndex++){
     
     if (favFilms[filmsIndex] == "Beetlejuice"){
@@ -52,3 +53,25 @@ for(let filmsIndex = 0; filmsIndex < favFilms.length; filmsIndex++){
 
     console.log(favFilms[filmsIndex]);
 }
+
+//6
+let age = 15
+
+while (age < 18) {
+    console.log("You're a child!");
+    age++;
+}
+console.log("You're an adult");
+
+//7
+const drinkOrder = (size,drinkType) => { 
+    console.log(`Order received: ${size} ${drinkType}.`);
+}
+
+drinkOrder ("Small", "Cappuccino");
+
+const foodOrder = (size,foodType) => {
+    console.log(`Order received: ${size} ${foodType}`);
+}
+
+foodOrder("Regular","Fries");
