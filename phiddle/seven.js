@@ -18,3 +18,12 @@ function movieLine(tagLine) {
     }
 }
 console.log(movieLine(`arnold`));
+
+let cars = [`Tesla`, `Ford`, `BMW`]; 
+console.log (cars);
+
+let films = ["Ghost Busters", "Jaws", "MIB", "LOTR",];
+
+for (let film = 0; film < films.length; film++) {
+  console.log(films[film]);
+}
