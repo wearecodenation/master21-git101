@@ -19,3 +19,17 @@ switch (id){
     default:
         console.log("Where is Jim? Please can you go get him to sort this mess out.");
 }
+
+let homerSong = [
+    "pizza",
+    "bagels",
+    "hotdogs",
+    "mustard",
+    "beer",
+    "eggplant",
+    "baby deer",
+    "la",
+];
+
+console.log(`I like ${homerSong[0]}, I like ${homerSong[1]}, I like ${homerSong[2]}, with ${homerSong[3]} and ${homerSong[4]}.
+I'll eat ${homerSong[5]}, I could even eat a ${homerSong[6]}. ${homerSong[7].repeat(10)}.`);
