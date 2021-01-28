@@ -16,7 +16,7 @@ console.log("Why are you here?")
 //if satement
 var x
 var y
-x = 166
+x = 167
 y = 15
 console.log(x)
 if (x==y){                                  // needed strict equals for type and value
@@ -28,4 +28,15 @@ else if (x>y){
 }
 else{
     console.log("y is greater than x")
+}
+
+//switch statement even number checker
+let number = x%2
+switch (number) {
+    case 0:
+    console.log("this numeber is even")
+        break;
+
+    default: console.log("This number is Odd")
+        break;
 }
