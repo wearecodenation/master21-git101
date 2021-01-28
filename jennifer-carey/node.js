@@ -12,3 +12,6 @@ if (age > 30) {
 } else {
    console.log(`I'm ${age} years old - a spring chicken!`);
 }
+
+// Showing a switch case
+
