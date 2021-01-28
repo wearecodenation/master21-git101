@@ -95,4 +95,18 @@ h2 {
    height: 350px;
 }
 
+/* ----- Media Queries ----- */
 
+@media (max-width:600px) {
+   .wrapper {
+      width: 85%;
+   }
+
+   .table-songs {
+      width: 100%;
+   }
+
+   .video {
+      width: 100%;
+   }
+}
