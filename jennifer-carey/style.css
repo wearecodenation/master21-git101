@@ -14,6 +14,7 @@ body {
    font-size: 1.125rem;
    line-height: 1.5;
    font-family: 'Slabo 13px', serif;
+   text-align: center;
 }
 
 h1, h2 {
@@ -24,12 +25,27 @@ h1, h2 {
 
 h1 {
    font-size: 2.488rem;
+   padding-top: 2em;
+   padding-bottom: 1em;
 }
 
 h2 {
    font-size: 2.074rem;
+   padding-bottom: 1em;
 }
 
+/* ----- Layout Styles ----- */
 
+.wrapper {
+   width: 80%;
+   max-width: 1000px;
+   margin: 0 auto;
+   border: 2px solid red;
+}
+
+.section {
+   border: 2px solid red;
+   padding-bottom: 3em;
+}
 
 
