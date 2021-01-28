@@ -34,3 +34,17 @@ let rockBands = new Array("Foo Fighters", "Royal Blood", "Arctic Monkeys");
 for (a = 0; a < rockBands.length; a++) {
     console.log(rockBands[a])
 }
+
+//6. Showing an example of a function
+let surname = "Morris";
+
+function evanNameCheck (a, b) {
+    if ((a == "Evan") && (b == "Morris")) {
+        console.log("This is Evan Morris!")
+    }
+    else {
+        console.log("This is not Evan Morris!")
+    }
+}
+
+evanNameCheck(firstName, surname);  //running evanNameCheck function for test.
