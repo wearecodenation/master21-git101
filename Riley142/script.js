@@ -1,2 +1,2 @@
 // Printing something to the console
-console.log("something");
+console.log("Something.");
