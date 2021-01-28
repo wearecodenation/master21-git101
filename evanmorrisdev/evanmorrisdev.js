@@ -37,3 +37,6 @@ switch (firstName) {
     default:
         console.log("No Known Name Has Been Added To the JS File");
 }
+
+//4. Show an example of an array
+let rockBands = new Array("Foo Fighters", "Royal Blood", "Arctic Monkeys"); 
