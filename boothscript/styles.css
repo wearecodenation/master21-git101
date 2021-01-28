@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   background: lightgray;
+  margin: 0;
 }
 
 h1,
@@ -37,4 +38,11 @@ main {
 
 section {
   margin-bottom: 4em;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 4em;
 }
