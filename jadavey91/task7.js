@@ -46,3 +46,13 @@ do {
     console.log(j);
     j++;
 } while (j<=8);
+
+let totalSpent = 1500
+
+const onlineShopping = (spending) => {
+    console.log(`Are you seriously about to spend £${spending} on Palace/Supreme when you've already spent £${totalSpent}!`);
+    totalSpent = spending + totalSpent;
+    console.log(`I hope you can sleep at night having spent ${totalSpent} now!`);
+}
+
+onlineShopping(183);
