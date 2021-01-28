@@ -21,4 +21,6 @@ Nisha Rai-[Github Profile](https://github.com/nisharai26) -[Portfolio](https:///
 Janis Mcluckie [My Profile] (https://github.com/JanisMc) [My Page] (https://janismc.github.io/)
 Muge Alev -  Here is my profile page - [Click Here](https://github.com/mafromist) and my Github Pages; **CSS** Zen Garden Project - [Click Here](https://mafromist.github.io/css-zen-garden/)
 Le-Ann Wright -[Github Profile](https://github.com/LRWright) - [Portfolio](https://lrwright.github.io/)
+Jordan Williams [Github profile](https://github.com/jthomasw88) - [portfolio](https://jthomasw88.github.io/profile-page/)
 Simon McNee- [Github Profile] (https://github.com/simcnee)
+
