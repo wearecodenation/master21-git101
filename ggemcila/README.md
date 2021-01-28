@@ -1,0 +1,2 @@
+Hi I'm Gemcila and I'm here to learn the basics of coding and start a new carrier path.
+I'm looking forward on getting the most of these 12 weeks bootcamp, doing mistakes and learn from them, developping teamwork skills and especially enjoying at the same time!
