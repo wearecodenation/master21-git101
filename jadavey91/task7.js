@@ -39,3 +39,10 @@ drinksOfTheDay = ["water", "tea", "coffee", "decaf-tea", "water", "beer"];
 for(let drinkIndex = 0; drinkIndex < drinksOfTheDay.length; drinkIndex++){
     console.log(drinksOfTheDay[drinkIndex]);
 }
+
+let j = 0
+
+do {
+    console.log(j);
+    j++;
+} while (j<=8);
