@@ -1,6 +1,10 @@
 # master21-git101
-Stephen Iddon - Profile : https://github.com/SteIddon / Website : https://steiddon.github.io/Website/
+
+First git projec
+
+Jake Dibbert - Github profile [Github-Profile](https://github.com/JakeyD11) - [Github-Pages](https://jakeyd11.github.io/)
 Ruaraidh Plummer - [Click here](https://github.com/ruarplum), to see my github profile
+Stephen Iddon - Profile : https://github.com/SteIddon / Website : https://steiddon.github.io/Website/
 Nicholas Ferrari [Github](https://github.com/NickFerra), [GitHub Pages Website](https://nickferra.github.io/NickWeb/)
 Jennifer Carey - [Click here](https://github.com/jennifer-carey) to see my GitHub profile and [click here](https://jennifer-carey.github.io/) to see my GitHub Pages.
 Matthew Connell - Check out my Github [profile](https://github.com/Connell97) and my [portfolio](https://connell97.github.io/portfolio/).
