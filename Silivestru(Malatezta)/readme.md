@@ -1,0 +1,1 @@
+I have signed to Code Nation to be a software developer. I like to challenge myself and I am confident that this course will benefit my IT skills.
