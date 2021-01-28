@@ -1,9 +1,3 @@
-
-// Show an example of a do loop
-// Show an example of a function
-// You should not do this all at once, you should do each of these one by one, commit and push them, to practice git.
-
-
 //1. Print something to the console.
 console.log("Hello World!");
 
