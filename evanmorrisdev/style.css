@@ -47,6 +47,12 @@ p {
     font-size: larger;
 }
 
+footer {
+    background-color: #cccccc;
+    font-size: 1em;
+    color: white;
+}
+
 #GitHubProfile, #GitHubPages {
     text-align: center;
     text-decoration: none;
@@ -58,4 +64,8 @@ p {
 footer > p {
     text-decoration: none;
     text-transform: uppercase;
+}
+
+a:hover {
+    color: white;
 }
