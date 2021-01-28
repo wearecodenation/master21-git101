@@ -38,3 +38,6 @@ switch (day) {
     default:
         console.log("Wait...What?");
 }
+
+// Show an example of an array
+const allTheFancyDrinks = ["Matcha Latte", "Golden Latte", "Chai Latte"];
