@@ -1,0 +1,35 @@
+/* ----- General Styles ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&family=Ultra&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #297b3d;
+   color: white;
+   font-size: 1.125rem;
+   line-height: 1.5;
+   font-family: 'Slabo 13px', serif;
+}
+
+h1, h2 {
+   font-family: 'Ultra', serif;
+   color: #ffde38;
+   letter-spacing: 0.1rem;
+}
+
+h1 {
+   font-size: 2.488rem;
+}
+
+h2 {
+   font-size: 2.074rem;
+}
+
+
+
+
