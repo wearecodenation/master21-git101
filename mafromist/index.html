@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>GIT Training Page</title>
 </head>
 <body id="home">
     <head>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#songs">Songs</a></li>
-            </ul> 
-        </nav>
+        <div class="navbar">
+            <nav>
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Weekly Favourite Songs</a>
+                <ul>
+                  <li><a href="#home">Home</a</li>
+                    <li><a href="#songs">Songs</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
     </head>
 
     <main>
@@ -23,7 +29,8 @@
                     <td>&nbsp;</td>
                     <td>Singer/Band Name</td>
                     <td>Song Name</td>
-                    <td>Spotify Link</td>
+                    <td>Spotify Links</td>
+                    <td>YouTube Links</td>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -48,11 +55,12 @@
                 </tr>
             </table>
         </div>
+              <!--- Details about the songs   -->
 <!--first video-->
+    <div class="container details"> 
         <div id="first">
             <h2>Here is the first favourite song's video</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cKLzfnf6Y_Y" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cKLzfnf6Y_Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="lyrics">
                 <table>
                     <tr>
@@ -61,6 +69,7 @@
                     </tr>
                     <tr>
                         <td>
+                        <td class="original">
                                 <p>Bir yol var ama her yerde tuzak<br>
                             Bir yol daha var dönmek de yasak<br>
                             Deryaya yakın<br>
@@ -133,10 +142,7 @@
             <!--second video-->
             <div id="second">
                 <h2>Here is the second favourite song's video</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/9I16FhnSa-c" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9I16FhnSa-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="lyrics">
                     <table>
                         <tr>
@@ -145,6 +151,7 @@
                         </tr>
                         <tr>
                             <td>
+                            <td class="original">
                                 <p>Tenime yazılmışsın (yazılmışsın)<br>
                                     Elimden ne gelir<br>
                                     İçime kazınmışsın (kazınmışsın)<br>
@@ -189,9 +196,8 @@
             <div id="third">
                 <h3>Here is the second favourite song's video</h3>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tksolV5Gkso" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/tksolV5Gkso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
                 <div class="lyrics">
                     <table>
                         <tr>
@@ -199,7 +205,9 @@
                             <td><h3>Lyrics in English</h3></td>
                         </tr>
                         <tr>
-                            <td>
+
+                            <td class="original">
+
                                 <p>Somo' los choro', los flaite' y los caras de nana<br>
                                     Los cara de na' (De na')<br>
                                     Somo' los patipela'o, los cuma', los roto', los chulo'<br>
@@ -322,6 +330,7 @@
 
             </div>
         </div>
+    </div>
     </main>
 </body>
 </html>
