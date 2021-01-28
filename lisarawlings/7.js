@@ -34,3 +34,16 @@ let favouriteDrink=["Hot Chocolate", "Vanilla Latte", "Water"]
 console.log(favouriteDrink[2]);
 console.log(favouriteDrink[0]);
 console.log(favouriteDrink[1]);
+
+//Show an example of a 'for' loop//
+
+let foodOrder = [
+    "Arrabiatta",
+    "Double Cheeseburger",
+    "Salt & Pepper Chicken Pizza",
+    "Chips"
+];
+
+for(let i = 0; i < foodOrder.length; i++){
+    console.log(foodOrder[i]);
+}
