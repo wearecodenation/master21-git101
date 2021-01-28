@@ -26,9 +26,18 @@ let faveGames = ['Ocarina of Time', 'Breath of the Wild', 'Majoras Mask', 'Stard
 console.log(faveGames)
 
 // Show an example of a for loop
-for (let i= 0; i<10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 // Show an example of a do loop
+let i = 0;
+let text = '';
+
+do {
+    i = i + 1;
+    text = text + i;
+} while (i < 5);
+console.log(text);
+
 // Show an example of a function
 
