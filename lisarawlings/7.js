@@ -27,3 +27,10 @@ switch(true) {
         default:
             console.log(num)
 }
+
+//Show an example of an array//
+
+let favouriteDrink=["Hot Chocolate", "Vanilla Latte", "Water"]
+console.log(favouriteDrink[2]);
+console.log(favouriteDrink[0]);
+console.log(favouriteDrink[1]);
