@@ -31,3 +31,12 @@ switch (destination){
     default:
         console.log ("You are not going on holiday this year?")
 }
+
+//array
+let strawberryDaiquiri = [
+    "Strawberries",
+    "Sugar",
+    "White Rum",
+    "Strawberry liqueur",
+    "Lime juice"
+];
