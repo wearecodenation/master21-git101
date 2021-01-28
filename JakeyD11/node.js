@@ -6,7 +6,9 @@ let faveProgram = [
     "VS Code",
     "Photoshop",
     "GitKraken",
-]
+];
+let result = '';
+let addition = 0;
 
 for (let programIndex = 0; programIndex < faveProgram.length; programIndex++) {
     console.log(faveProgram[programIndex]);
@@ -39,4 +41,16 @@ switch(program){
         default:
             console.log("Must be the weekend if you are doing nothing!")
 }
+faveProgram.push("paint");
+faveProgram.push("MS Word");
 
+for(let i=0; i < faveProgram.length; i++) {
+    console.log(faveProgram [i]);
+}
+
+do {
+addition++;
+result = result + addition;
+} while (addition < 7);
+
+console.log(result);
