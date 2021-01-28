@@ -40,3 +40,11 @@ switch (number) {
     default: console.log("This number is Odd")
         break;
 }
+// Arrays
+var myfavouritepokemon = ["shroomish", "hoothoot", "bellsprout", "oddish", "cynaquil", "Unknown" ]
+console.log(myfavouritepokemon)
+console.log(myfavouritepokemon[1])  // arrays start at 0 so [0] would return shroomish
+console.log(myfavouritepokemon.length)
+var reversed = myfavouritepokemon.reverse()
+console.log(myfavouritepokemon)
+console.log(reversed) // added just to remind myself of function and also its fun 
