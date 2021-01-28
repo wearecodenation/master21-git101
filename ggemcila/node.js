@@ -23,3 +23,13 @@ switch (git1) {
         console.log("I'm ready to merge!");
         break;
 }
+/* 4) Showing an example of array */
+let activities = [
+    "Spending quality time with my family",
+    "Reading books",
+    "Cooking",
+    "Re-organizing my schedule",
+    "Painting",
+    "Walking"
+];
+console.log(activities);
