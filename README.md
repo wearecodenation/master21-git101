@@ -1,7 +1,9 @@
 # master21-git101
-First git project
-Carys Pritchard [git hub] (https://github.com/carys23) [git profile] (https://carys23.github.io)
 
+First git project
+
+Amelia Riding [Github](https://github.com/Melia-create) [About Me](https://melia-create.github.io/aboutme/)
+Carys Pritchard [git hub] (https://github.com/carys23) [git profile] (https://carys23.github.io)
 Noorhan Wilkinson profile [Click here](https://github.com/Lightyyyy).
 [My Profile] (https://github.com/Malatezta)
 [My Page] (https://malatezta.github.io/)
