@@ -78,4 +78,14 @@ console.log(`AAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRGH!`);
 
 // Show an example of a function
 
+const weatherReport = (weather) => {
+   if (weather == "rainy" || weather == "windy") {
+      console.log(`The weather looks grim - better wrap up.`);
+   } else if (weather == "sunny") {
+      console.log(`Today is ${weather}, it's going to be great!`);
+   } else {
+      console.log(`It's looking unpredictable.`);
+   }
+}
 
+weatherReport("windy");
