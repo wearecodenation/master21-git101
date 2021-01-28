@@ -27,3 +27,9 @@ let films = ["Ghost Busters", "Jaws", "MIB", "LOTR",];
 for (let film = 0; film < films.length; film++) {
   console.log(films[film]);
 }
+
+let i = 0;
+do {
+  i += 1;
+  console.log(i);
+} while (i < 100);
