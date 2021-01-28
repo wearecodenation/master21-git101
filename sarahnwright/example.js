@@ -12,3 +12,22 @@ let weather = "sunny";
         console.log ("It's a bit grey out today, sit back and watch some Netflix!");
     }
     
+//switch case
+let destination = "Nice";
+switch (destination){
+    case "Barcelona":
+    case "Cadiz":
+    case "Madrid":
+        console.log ("You are going on holiday to Spain this year!");
+        break;
+    case "Paris":
+    case "Nice":
+        console.log ("You are going on holiday to France, oo lala!");
+        break;
+    case "Cologne":
+    case "Berlin":
+        console.log ("You are going on holiday to Germany this year!");
+        break;
+    default:
+        console.log ("You are not going on holiday this year?")
+}
