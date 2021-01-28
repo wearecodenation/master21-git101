@@ -68,3 +68,11 @@ do {
 while (i < 5);
 {
 console.log(text)};
+
+//7. example of a function
+
+const foodOrder = (order1, order2) => {
+    console.log(`Can I have a ${order1} and some ${order2} please?`);
+}
+
+foodOrder ("pizza", "noodles");
