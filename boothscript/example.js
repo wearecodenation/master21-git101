@@ -20,3 +20,7 @@ function singSong(player) {
 }
 
 console.log(singSong('Moussa Sissiko'));
+
+const firstTeamPlayers = ['Loris', 'Kane', 'Son', 'Ndembele'];
+
+console.log(firstTeamPlayers);
