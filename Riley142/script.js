@@ -55,3 +55,9 @@ count ++ ;
 console.log(count);
 }
 while (count < 3)
+
+//Show an example of a function
+notAVeryCreativeFunction = () => {
+    console.log('Sorry lacking creativity for something nicer!')
+}
+notAVeryCreativeFunction();
