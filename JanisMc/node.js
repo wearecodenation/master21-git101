@@ -8,3 +8,16 @@ if (brain == "Fried") {
 else {
     console.log("You must be doing ok")
 }
+
+    switch (brain) {
+        case "Fried":
+        case "Still fried":
+        console.log("I think I'm losing my mind");
+        break;
+        case "Ok":
+        case "Great":
+        console.log("Seems like you're doing better");
+        break;
+        default:
+        console.log("How are you?")
+    }
