@@ -28,8 +28,14 @@ let homerSong = [
     "beer",
     "eggplant",
     "baby deer",
-    "la",
+    "la ",
 ];
 
 console.log(`I like ${homerSong[0]}, I like ${homerSong[1]}, I like ${homerSong[2]}, with ${homerSong[3]} and ${homerSong[4]}.
 I'll eat ${homerSong[5]}, I could even eat a ${homerSong[6]}. ${homerSong[7].repeat(10)}.`);
+
+drinksOfTheDay = ["water", "tea", "coffee", "decaf-tea", "water", "beer"];
+
+for(let drinkIndex = 0; drinkIndex < drinksOfTheDay.length; drinkIndex++){
+    console.log(drinksOfTheDay[drinkIndex]);
+}
