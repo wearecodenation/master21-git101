@@ -1,0 +1,72 @@
+<!--
+    Inside your user area (see #3 and do this first) add create a HTML page, it should have:
+
+A table (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) listing your favourite songs, you can be as creative as you like.
+
+You should also have an iframe (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) that embeds a youtube video of your favourite song
+
+Appropriate use of header tags, paragraph tags etc
+
+Remember to tag commits with this issue number
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../evanmorrisdev/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="htmlHeader">Evan's Music</h1>
+    </header>
+
+    <div class="tableDiv">
+        <p class="tableDescription">Table of my favourite songs</p>
+            <table class="favSongsTable">
+                <thead>
+                    <tr>
+                        <th colspan="2">Evan's Favourite Songs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="firstRow">
+                        <td>Royal Blood</td>
+                        <td>Lights Out</td>
+                    </tr>
+                    <tr>
+                        <td>The Killers</td>
+                        <td>The Man</td>
+                    </tr>
+                    <tr>
+                        <td>Stereophonics</td>
+                        <td>Maybe Tomorrow</td>
+                    </tr>
+                    <tr>
+                        <td>Arctic Monkeys</td>
+                        <td>From The Ritz To The Rubble</td>
+                    </tr>
+                    <tr>
+                        <td>The Last Shadow Puppets</td>
+                        <td>Aviation</td>
+                    </tr>
+                    <tr>
+                        <td>Nothing But Theives</td>
+                        <td>Is Everybody Going Crazy?</td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+    </div>
+
+    <div class="embededYTVideo">
+        <p class="favSong">My favourite song is Lights out By Royal Blood</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZSznpyG9CHY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
