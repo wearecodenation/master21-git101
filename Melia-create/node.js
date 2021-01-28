@@ -14,7 +14,6 @@ else if (password.length >=8) {
 //3
 let pizzaTopping ="Mushroom";
 
-//4
 switch(pizzaTopping) {
     case "Pepperoni":
     case "Mushroom":
@@ -31,3 +30,25 @@ switch(pizzaTopping) {
         console.log("What?");
 }
 
+//4
+let favFilms = [
+    "Kill Bill",
+    "Step Brothers",
+    "The Room",
+    "Beetlejuice",
+    "Pulp Fiction",
+    "Fear and Loathing"
+];
+
+for(let filmsIndex = 0; filmsIndex < favFilms.length; filmsIndex++){
+    
+    if (favFilms[filmsIndex] == "Beetlejuice"){
+        break;
+    }
+
+    if(favFilms[filmsIndex] == "Pulp Fiction") {
+        continue;
+    }
+
+    console.log(favFilms[filmsIndex]);
+}
