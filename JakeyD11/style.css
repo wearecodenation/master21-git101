@@ -22,7 +22,7 @@ th, td {
       font-weight: 400;
   }
   body {
-      background-color: grey;
+      background-color: rgb(184, 181, 181);
   }
   iframe {
     border: 1px solid black;
