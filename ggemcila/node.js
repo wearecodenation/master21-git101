@@ -37,3 +37,13 @@ console.log(activities);
 for (let listOfActivities =0; listOfActivities < activities.length; listOfActivities++){
     console.log(activities[listOfActivities]);
 }
+/* 6) Showing an example of a do loop */
+let drinks = [
+    "Coffee",
+    "Chocolate",
+     "Tea"
+];
+let myChoiceDrink = "Chocolate";
+do {
+    console.log(`I only like ${drinks[1]}`);
+} while (myChoiceDrink != "Chocolate");
