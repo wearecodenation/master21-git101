@@ -16,5 +16,17 @@ function checkNum() {
     }
 }
 
+function numSwitch() {
+switch(num) {
+    case "5":
+        console.log(`You win! GGWP`);
+    case "6":
+        console.log(`Close, but no cigar.`);
+    case "4":
+        console.log(`Only one off!`)
+    default:
+        console.log(`Not even close. Pathetic.`)
+}}
+
 console.log(`Your number is ${num}`);
-checkNum();
+numSwitch();
