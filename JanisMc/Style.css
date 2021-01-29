@@ -42,3 +42,22 @@ tbody {
     justify-content: center;
     padding: 3vh;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: large;
+}
+
+a {
+    color: rgb(77, 17, 77);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(49, 2, 49);
+    cursor: grab;
+}
