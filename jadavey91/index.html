@@ -43,4 +43,23 @@
     <div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/ejdZEe4Rd0o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div>
+        <button onclick="myFunction()">Try it</button>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+        var txt;
+        var person = prompt("Please enter your name:", "Namey McNameFace");
+        if (person == null || person == "") {
+        txt = "User is too secretive";
+        } else {
+        txt = "Hello " + person + "! Nice to meet you!";
+        }
+        document.getElementById("demo").innerHTML = txt;
+        }
+        </script>
+<!-- I may have got the alert from w3 schools, line 60 is not something I'm familiar with--> 
+    </div>
 </body>
