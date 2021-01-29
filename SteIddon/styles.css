@@ -1,5 +1,5 @@
 body {
-    background-image:url(../Website/zolapic.jpg);
+    background-image:url('zolapic.jpg');
     background-repeat: no-repeat;
     background-color:silver;
     background-blend-mode:luminosity;
@@ -55,7 +55,7 @@ div.about{
 div.links{
     background-image: linear-gradient(to left, rgba(85, 90, 22, 0.637), rgb(65, 55, 55));
     height:150px;
-    width:220px;
+    width:330px;
     position:fixed;
     bottom:600px;
     right:490px;

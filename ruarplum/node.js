@@ -53,7 +53,7 @@ let boatTypes = [
     "jeanneau",
     "hanse",
     "swan",
-    "oyster";
+    "oyster"
 ]
 console.log(boatTypes);
 

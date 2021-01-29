@@ -24,6 +24,11 @@ color: antiquewhite;
 }
 
 h1, h2 {font-family: "Amatic SC", cursive;
-    color:antiquewhite;}
+    color:antiquewhite;
+}
 
+footer {font-family: "Cinzel", serif;
+    position: fixed;
+
+}
 

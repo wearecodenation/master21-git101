@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vmax;
+}
+
+table {
+    width: 50vw;
+    border-collapse: collapse;
+    margin-bottom: 5vh;
+}
+
+th {
+    font-size: 1vmax;
+}
+
+td {
+    text-align: center;
+    padding: 3vmax;
+}
+
+td {
+    border: 3px solid rgb(82, 157, 201);
+    padding: 0.5vmax;
+    text-align: center;
+}
+
+td a {
+    text-decoration: none;
+    color: rgb(66, 134, 143);
+}
+
+td a:hover {
+    color: rgb(0, 152, 172);
+}
+
+.favourite iframe {
+    width: 30vw;
+    height: calc((30vw/16)*9);
+}
