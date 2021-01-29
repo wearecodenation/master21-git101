@@ -1,1 +1,1 @@
-Hi my name is simon..
+Hi my name is simon
