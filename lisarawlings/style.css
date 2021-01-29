@@ -3,6 +3,7 @@ html {background: url(Background.jpg) repeat center;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    padding-bottom: 200px;
 
 }
 
@@ -31,7 +32,7 @@ table, th, td {
       background-color: rgba(238, 238, 238, 0.836);
       color: rgb(89, 182, 143);
       text-align: center;
-      margin-left: 550px;
+      margin-left: 590px;
       line-height: 40px;
       font-family: Arial, Helvetica, sans-serif;
       border-color: rgb(19, 128, 82);
@@ -58,5 +59,37 @@ table, th, td {
   
   #youtubevideo {
       margin-left: 33.3%;
+      size: 50%;
   }
   
+  a {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(89,182,143);
+      font-style: unset;
+      font-size: 20px;
+      padding-top: 30px;
+  }
+
+  footer {
+    color: rgb(89,182,143);
+    background:url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.linkedin {
+    background: url(linkedin.png);
+    background-size: 5%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    padding-top: 250px;
+
+}

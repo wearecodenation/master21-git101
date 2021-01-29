@@ -49,6 +49,7 @@ tr a{
 .wrapper{
       text-align: center;
       margin: 100px;
+
 }
 
 a:hover{
@@ -58,3 +59,7 @@ a:hover{
 footer{
     background-color: darkslategray;
 }
+
+table, th, td {
+    border: 1px solid black;
+  }
