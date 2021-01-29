@@ -18,6 +18,12 @@ body{
     line-height: 1.6em;
 }
 
+.wrapper{
+    min-height: 100%;
+    display: grid;
+    margin-bottom: -50px;
+}
+
 .main-header{
     background-color: black;
     color: #00E532;
@@ -76,5 +82,9 @@ body{
 /* Footer Styles  */
 .footer{
     background-color: black;
-    padding: 20px
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
 }
