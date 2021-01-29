@@ -1,0 +1,39 @@
+body {
+    background-color: #ffece5;
+  }
+  
+body {
+    font: normal 14px Verdana, Arial, sans-serif;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em
+}
+  h1 {
+    color: #ffb366;
+    margin-left: 20px;
+    text-align: center;
+  }
+  p{
+      text-align: center;
+  }
+  table, th, td {
+    border: 1px solid #ff9933;
+    text-align: center;
+    width: 40%;
+    padding: 12px;
+  }
+  table, th, td .centre{
+        margin-left: auto;
+        margin-right: auto;
+  }
+  h2 {
+    color: #ffb366;
+    margin-left: 20px; 
+    text-align: center;
+  }
+  iframe{
+    display: block;
+    margin: auto;
+  }
