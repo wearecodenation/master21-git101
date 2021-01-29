@@ -1,0 +1,8 @@
+let age = 19;
+
+if (age < 18) {
+    console.log("sorry, you must be 17");
+}
+else if(age >=18) {
+    console.log ("Yes, i can serve you.");
+}
