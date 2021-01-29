@@ -26,3 +26,10 @@ var second = seeds[1];
 console.log(second);
 seeds.push("Linseed");
 console.log(seeds);
+
+var arr = [20, 30, 40, 50, 60];
+
+for (var i = 0; i < 5; i++)
+{
+    console.log(arr[i]);
+}
