@@ -1,0 +1,21 @@
+table, th, td {
+  display: flax;
+  flex-wrap: wrap;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table , th, td{
+    font-family: 'Rock Salt', cursive;
+    padding: 20px; 
+    font-style: Roboto Mono;
+    caption-side: bottom;
+    color: #666;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+th, td {
+ 
+    padding-left: 10px;
+  }
+  
