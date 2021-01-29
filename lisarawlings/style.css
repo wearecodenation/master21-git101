@@ -1,0 +1,95 @@
+html {background: url(Background.jpg) repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+
+}
+
+h2 {
+    padding-top: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(89, 182, 143);
+}
+
+table, th, td {
+    border: 3px solid rgb(89, 182, 143);
+  }
+
+  header {
+    background: url(Logo1.jpg) top no-repeat;
+    margin-top: 0px;
+    padding-top: 0;
+    position: center;
+    background-size: 500px;
+  
+  }
+
+  #t01 {
+      width: auto;
+      background-color: rgba(238, 238, 238, 0.836);
+      color: rgb(89, 182, 143);
+      text-align: center;
+      margin-left: 590px;
+      line-height: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-color: rgb(19, 128, 82);
+      border-collapse: collapse;
+  }
+
+  h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color:rgb(89, 182, 143);
+      font-size: 18pt;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: -50px;
+  }
+
+  .summary {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(89,182,143);
+      text-align: center;
+      color: rgb(134, 134, 134);
+      padding-top: -160px;
+
+  }
+  
+  #youtubevideo {
+      margin-left: 33.3%;
+      size: 50%;
+  }
+  
+  a {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(89,182,143);
+      font-style: unset;
+      font-size: 20px;
+      padding-top: 30px;
+  }
+
+  footer {
+      color: rgb(89,182,143);
+      background:url(background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 20%;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
+
+  .linkedin {
+      background: url(linkedin.png);
+      background-size: 5%;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: -50px;
+      margin-bottom: 100px;
+      padding-top: 250px;
+
+  }
