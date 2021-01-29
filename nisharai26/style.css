@@ -1,3 +1,4 @@
+
 head {
   background-color: lightyellow;
 }
@@ -15,18 +16,14 @@ body {
   border: 1px solid black;
 }
 
-table,
-th,
-td {
+table,th,td {
   display: flax;
   flex-wrap: wrap;
   background: lightyellow;
   border: 1px solid black;
   border-collapse: collapse;
 }
-table,
-th,
-td {
+table,th,td {
   background: lightyellow;
   font-family: "Rock Salt", cursive;
   padding: 20px;
@@ -37,8 +34,7 @@ td {
   letter-spacing: 1px;
 }
 
-th,
-td {
+th,td {
   padding-left: 10px;
 }
 footer {
