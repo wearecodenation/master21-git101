@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+    background-color: plum;
+    font-family: sans-serif;
+    
+}
+td{
+    font-style: italic;
+    text-shadow: hotpink 2px 4px 2px;
+    color: pink;
+}
+table th a{
+    font-style: italic;
+    text-shadow: hotpink 2px 4px 2px;
+    color: pink;
+    width: 50%;
+    font-size: xx-large;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
