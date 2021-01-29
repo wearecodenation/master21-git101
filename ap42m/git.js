@@ -60,4 +60,10 @@ var daysOfWeek = ["Monday", "Tuesday", "Wednseday", "Thursday", "Friday", "Satur
 do {
     console.log(daysOfWeek[numberOfDaysCounter]);
     numberOfDaysCounter++
-} while (numberOfDays < numberOfDays)
+} while (numberOfDays < numberOfDays);
+
+//functions
+function multiplier(p1, p2){
+    return p1*p2
+}
+console.log(multiplier(7,6))
