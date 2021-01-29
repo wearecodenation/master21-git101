@@ -1,6 +1,6 @@
 /* ----- General Styles ----- */
 
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Roboto&display=swap');
 
 * {
    box-sizing: border-box;
@@ -13,12 +13,12 @@ body {
    color: white;
    font-size: 1.125rem;
    line-height: 1.5;
-   font-family: 'Slabo 13px', serif;
+   font-family: 'Roboto', sans-serif;
    text-align: center;
 }
 
 h1, h2 {
-   font-family: 'Ultra', serif;
+   font-family: 'Corben', cursive;
    letter-spacing: 0.1rem;
 }
 
@@ -109,4 +109,5 @@ h2 {
    .video {
       width: 100%;
    }
+}
 }
