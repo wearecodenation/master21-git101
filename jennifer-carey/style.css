@@ -1,6 +1,6 @@
 /* ----- General Styles ----- */
 
-@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Roboto&display=swap');
 
 * {
    box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 body {
    background-color: #297b3d;
-   color: white;
+   color: #333333;
    font-size: 1.125rem;
    line-height: 1.5;
    font-family: 'Roboto', sans-serif;
@@ -24,8 +24,7 @@ h1, h2 {
 
 h1 {
    font-size: 2.488rem;
-   padding-top: 2em;
-   padding-bottom: 1em;
+   color: white;
 }
 
 .h1-yellow {
@@ -37,6 +36,14 @@ h2 {
    padding-bottom: 0.5em;
 }
 
+a {
+   color: inherit;
+}
+
+a:hover {
+   color: white;
+}
+
 /* ----- Layout Styles ----- */
 
 .wrapper {
@@ -46,7 +53,15 @@ h2 {
 }
 
 header {
-   width: 40%;
+   padding: 5em 0;
+   display: flex;
+   align-items: flex-end;
+}
+
+.header-para {
+   color: #ffde38;
+   font-family: 'Corben', cursive;
+   font-weight: 400;
 }
 
 .section {
@@ -61,12 +76,11 @@ header {
    width: 60%;
    min-width: 300px;
    background-color: white;
-   color: black;
+   color: #333333;
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .table-caption {
-   color: white;
    text-align: left;
    padding-bottom: 0.5em;
 }
