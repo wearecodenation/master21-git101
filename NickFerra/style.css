@@ -1,3 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+/* ------ HEADER ------ */
+
+
+
+
+
+
+
+
+
+
 table,
 td {
     border: 1px solid #333;
@@ -8,3 +25,14 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+footer {
+    background-color: #181818;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
