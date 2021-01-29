@@ -8,7 +8,10 @@ head {
   text-align: center;
   background: lightyellow;
   color: red;
-  font-size: 30px;
+  font-size: 60px;
+}
+h1{
+  text-align: center;
 }
 body {
   display: flex;
