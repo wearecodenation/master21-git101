@@ -48,3 +48,20 @@ th, td {
     align-items: center;
   }
   
+=======
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+
+table th,td {
+    border: 1px,solid black;
+
+}

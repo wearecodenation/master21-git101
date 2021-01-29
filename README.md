@@ -2,9 +2,7 @@
 
 First git project
 
-Amelia Riding [Github] (https://github.com/Melia-create) [About Me] (https://melia-create.github.io/aboutme/
-[My Profile] (https://github.com/Malatezta)
-[My Page] (https://malatezta.github.io/)
+Amelia Riding [Github](https://github.com/Melia-create) [About Me](https://melia-create.github.io/aboutme/)
 Carys Pritchard [git hub](https://github.com/carys23) [git profile](https://carys23.github.io)
 Noorhan Wilkinson profile [Click here](https://github.com/Lightyyyy).
 Silvestru Goncearenco [My Profile](https://github.com/Malatezta), [My Page](https://malatezta.github.io/)
@@ -23,10 +21,9 @@ Nathan Robinson [AboutMe](https://github.com/NathanRobinson11/)[GitHub](https://
 Lisa Rawlings -[Click here](https://github.com/lisarawlings) to see my GitHub profile
 Stephen Booth -[Github Profile](https://github.com/boothscript) -[Portfolio](https://boothscript.github.io/portfolio2)
 Le-Ann Wright -[Github Profile](https://github.com/LRWright) - [Portfolio](https://lrwright.github.io/)
-Goncearenco Andrei - [Github Profile](https://github.com/andreigoncearenco) - [Portofolio] (https://andreigoncearenco.github.io/)
+Andrei Goncearenco - [Github Profile](https://github.com/andreigoncearenco) - [Portofolio](https://andreigoncearenco.github.io/)
 Nisha Rai-[Github Profile](https://github.com/nisharai26) -[Portfolio](https:///nisharai26.github.io).
 Janis Mcluckie [My Profile](https://github.com/JanisMc), [My Page](https://janismc.github.io/)
 Muge Alev -  Here is my profile page - [Click Here](https://github.com/mafromist) and my Github Pages; **CSS** Zen Garden Project - [Click Here](https://mafromist.github.io/css-zen-garden/)
-Le-Ann Wright -[Github Profile](https://github.com/LRWright) - [Portfolio](https://lrwright.github.io/)
 Jordan Williams [Github profile](https://github.com/jthomasw88) - [portfolio](https://jthomasw88.github.io/profile-page/)
 Simon McNee- [Github Profile](https://github.com/simcnee)
