@@ -1,67 +1,55 @@
-head{
-    background-color: lightyellow;
+head {
+  background-color: lightyellow;
 }
 .header {
-    padding: 60px;
-    width: 100%;
-    text-align: center;
-    background:lightyellow;
-    color: red;
-    font-size: 30px;
-  }
-body{
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
+  padding: 60px;
+  width: 100%;
+  text-align: center;
+  background: lightyellow;
+  color: red;
+  font-size: 30px;
 }
-table, th, td {
+body {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+table,
+th,
+td {
   display: flax;
   flex-wrap: wrap;
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  table , th, td{
-      background: lightyellow;
-    font-family: 'Rock Salt', cursive;
-    padding: 20px; 
-    font-style: Roboto Mono;
-    caption-side: bottom;
-    color: #666;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-
-th, td {
- 
-    padding-left: 10px;
-  }
-  footer{
-     background: lightyellow;
-      font-size: 50px;
-      font-weight: bold;
-  }
-  .alert {
-    padding: 20px;
-    background-color: #f44336; /* Red */
-    color: white;
-    margin-bottom: 15px;
-    align-items: center;
-  }
-  
-=======
+  background: lightyellow;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 table,
+th,
 td {
-    border: 1px solid #333;
+  background: lightyellow;
+  font-family: "Rock Salt", cursive;
+  padding: 20px;
+  font-style: Roboto Mono;
+  caption-side: bottom;
+  color: #666;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
+th,
+td {
+  padding-left: 10px;
 }
-
-
-table th,td {
-    border: 1px,solid black;
-
+footer {
+  background: lightyellow;
+  font-size: 50px;
+  font-weight: bold;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  align-items: center;
 }
