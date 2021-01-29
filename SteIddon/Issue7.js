@@ -20,3 +20,9 @@ const expr = 'Pistachios';
       default:
         console.log(`Sorry, we are out of ${expr}.`);
     }
+
+var seeds = ["Sunflower", "Pumpkin", "Flaxseed"];
+var second = seeds[1];
+console.log(second);
+seeds.push("Linseed");
+console.log(seeds);
