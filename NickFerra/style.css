@@ -1,12 +1,23 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
  }
 
 /* ------ HEADER ------ */
-
-
+.header{
+    color: white;
+    text-align: center;
+    text-shadow: 10px 2px black;
+}
+.first{
+    color: rgb(128, 128, 128);
+    text-shadow: 10px 2px black;
+}
+.top{
+    background-color: #181818;
+    padding: 150px;
+    font-size: 3em;
+}
 
 
 
