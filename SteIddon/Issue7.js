@@ -33,6 +33,7 @@ for (var i = 0; i < 5; i++)
 {
     console.log(arr[i]);
 }
+
 let num55 = 0
 const doWhileLoop = () => {
     while (num55 < 10){
@@ -49,3 +50,9 @@ const doWhileLoop = () => {
     }
 }
 doWhileLoop()
+
+const takeOrder = (size, type, amount) => {
+  console.log(`Order received: ${size} ${type} and that will be £${amount} please, thank you`);
+}
+takeOrder ("XXL","Bacon Double Cheeseburger","7");
+
