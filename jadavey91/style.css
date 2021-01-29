@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        
 body {
     margin: 5;
     background-image: url("../jadavey91/img/musicbackground.jpg");
     background-size: cover;
+    margin-left: 55px;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 th {
-    background-color: #333;
-    color: #fff;
+    background-color:indigo;
+    color:ivory;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 td {
-    border: 1px solid #333;
+    background-color: indigo;
+    color: ivory;
+    font-family: 'Josefin Sans', sans-serif;
 }
 footer {
     bottom: 0px;
     left: 0px;
     position: fixed;
+    background-color:grey;
+    color: seashell;
+    padding: 3px;
+    border-radius: 25px;
 }
