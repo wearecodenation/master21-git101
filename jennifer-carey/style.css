@@ -11,9 +11,18 @@
 body {
    background-color: #297b3d;
    color: #333333;
+}
+
+body, footer {
    font-size: 1.125rem;
    line-height: 1.5;
    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+   color: #ffffff;
+   text-align: center;
+   padding: 1em 0;
 }
 
 h1, h2 {
