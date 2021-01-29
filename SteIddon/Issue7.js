@@ -33,3 +33,19 @@ for (var i = 0; i < 5; i++)
 {
     console.log(arr[i]);
 }
+let num55 = 0
+const doWhileLoop = () => {
+    while (num55 < 10){
+        console.log(`${num55} Sorry, try again`)
+        num55++;
+    }
+    if (num55 = 10) {
+        console.log(`${num55} AT LAST!`)
+        num55++;
+    }
+    while (num55 > 10){
+        console.log("Lets stop here")
+        break;
+    }
+}
+doWhileLoop()
