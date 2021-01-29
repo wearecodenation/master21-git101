@@ -19,6 +19,7 @@ table th a{
 .center {
     margin-left: auto;
     margin-right: auto;
+
   }
   footer {
     display: flex;
@@ -28,3 +29,5 @@ table th a{
     color: mistyrose;
     text-shadow: navy 2px 4px 7px;
 }
+
+

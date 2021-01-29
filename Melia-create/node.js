@@ -75,3 +75,4 @@ const foodOrder = (size,foodType) => {
 }
 
 foodOrder("Regular","Fries");
+
