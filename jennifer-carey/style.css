@@ -1,6 +1,6 @@
 /* ----- General Styles ----- */
 
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Roboto&display=swap');
 
 * {
    box-sizing: border-box;
@@ -10,23 +10,27 @@
 
 body {
    background-color: #297b3d;
-   color: white;
+   color: #333333;
    font-size: 1.125rem;
+}
+
+body, footer {
    line-height: 1.5;
-   font-family: 'Slabo 13px', serif;
-   text-align: center;
+   font-family: 'Roboto', sans-serif;
 }
 
 h1, h2 {
-   font-family: 'Ultra', serif;
+   font-family: 'Corben', cursive;
    letter-spacing: 0.1rem;
 }
 
 h1 {
    font-size: 2.488rem;
+   color: white;
+}
+
+.h1-yellow {
    color: #ffde38;
-   padding-top: 2em;
-   padding-bottom: 1em;
 }
 
 h2 {
@@ -34,16 +38,61 @@ h2 {
    padding-bottom: 0.5em;
 }
 
+a {
+   color: inherit;
+}
+
+a:hover {
+   color: white;
+}
+
+footer {
+   background-color: #297b3d;
+   color: #ffffff;
+   font-size: 0.8rem;
+   text-align: center;
+   padding: 1em 0;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
 /* ----- Layout Styles ----- */
 
-.wrapper {
+.content-container {
    width: 80%;
    max-width: 1000px;
    margin: 0 auto;
 }
 
-.section {
-   padding-bottom: 3em;
+header {
+   padding: 6em 0;
+}
+
+.header-flex {
+   display: flex;
+   align-items: flex-end;
+}
+
+.header-para {
+   color: #ffde38;
+   font-size: 1.25rem;
+   font-family: 'Corben', cursive;
+   font-weight: 400;
+}
+
+section {
+   padding-top: 3em;
+   padding-bottom: 7em;
+}
+
+.section-table {
+   background-color: #ffffff;
+}
+
+.section-video {
+   background-color: #efefef;
 }
 
 /* ----- Table Styles ----- */
@@ -54,12 +103,11 @@ h2 {
    width: 60%;
    min-width: 300px;
    background-color: white;
-   color: black;
+   color: #333333;
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .table-caption {
-   color: white;
    text-align: left;
    padding-bottom: 0.5em;
 }
@@ -97,8 +145,8 @@ h2 {
 
 /* ----- Media Queries ----- */
 
-@media (max-width:600px) {
-   .wrapper {
+@media (max-width:1000px) {
+   .content-container {
       width: 85%;
    }
 
@@ -108,5 +156,15 @@ h2 {
 
    .video {
       width: 100%;
+   }
+}
+
+@media (max-width:600px) {
+   .content-container {
+      width: 90%;
+   }
+
+   .header-flex {
+      flex-direction: column;
    }
 }
