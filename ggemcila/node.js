@@ -47,3 +47,18 @@ let myChoiceDrink = "Chocolate";
 do {
     console.log(`I only like ${drinks[1]}`);
 } while (myChoiceDrink != "Chocolate");
+/* 7) Showing an example of a function */
+let software = [
+    "Javascript",
+    "HTML",
+    "Css",
+    "HTML and CSS"
+];
+function webpage() {
+    if (software[2] == "HTML and CSS"){
+        console.log("Cool!");
+    }else if (software[2] != "HTML and CSS"){
+        console.log(`I need ${software[3]}`);
+    }
+}
+webpage();
