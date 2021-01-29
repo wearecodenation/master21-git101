@@ -32,4 +32,7 @@ table, th, td {
   .wrapper{
       text-align: center;
       margin: 100px;
+=======
+table, th, td {
+    border: 1px solid black;
   }
