@@ -1,22 +1,21 @@
-
-head {
-  background-color: lightyellow;
+html {
+  scroll-behavior: smooth;
 }
+
 .header {
   padding: 60px;
-  width: 100%;
   text-align: center;
+  width: 100%;
   background: lightyellow;
   color: red;
-  font-size: 60px;
-}
-h1{
-  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+  background-image: url('./song.jpg');
+  
 }
 body {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
+  background: lightyellow;
+
 }
 
 table,th,td {
@@ -27,28 +26,34 @@ table,th,td {
   border-collapse: collapse;
 }
 table,th,td {
-  background: lightyellow;
-  font-family: "Rock Salt", cursive;
+  background: grey;
+  font-weight: bold;
   padding: 20px;
   font-style: Roboto Mono;
   caption-side: bottom;
-  color: #666;
+  color: black;
   text-align: center;
   letter-spacing: 1px;
+
+}
+th{
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 1px 1px black;
+  
 }
 
 th,td {
   padding-left: 10px;
 }
+table { 
+  box-shadow: 10px 10px 5px #888;
+ }
+
 footer {
   background: lightyellow;
   font-size: 50px;
   font-weight: bold;
-}
-.alert {
-  padding: 20px;
-  background-color: #f44336; /* Red */
-  color: white;
-  margin-bottom: 15px;
-  align-items: center;
+  text-shadow: 2px 2px red;
 }
