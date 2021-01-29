@@ -71,25 +71,25 @@ table, th, td {
   }
 
   footer {
-      color: rgb(89,182,143);
-      background:url(background.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 20%;
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-  }
+    color: rgb(89,182,143);
+    background:url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
-  .linkedin {
-      background: url(linkedin.png);
-      background-size: 5%;
-      display: block;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin-top: -50px;
-      margin-bottom: 100px;
-      padding-top: 250px;
+.linkedin {
+    background: url(linkedin.png);
+    background-size: 5%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    padding-top: 250px;
 
-  }
+}
