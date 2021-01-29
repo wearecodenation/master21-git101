@@ -48,3 +48,16 @@ console.log(myfavouritepokemon.length)
 var reversed = myfavouritepokemon.reverse()
 console.log(myfavouritepokemon)
 console.log(reversed) // added just to remind myself of function and also its fun 
+
+// for loop (count up)
+for (let index = 0; index < 11; index++) {
+    const element = [index];
+}
+// do loop
+var numberOfDaysCounter = 4;
+var numberOfDays = 3;
+var daysOfWeek = ["Monday", "Tuesday", "Wednseday", "Thursday", "Friday", "Saturday", "Sunday"]
+do {
+    console.log(daysOfWeek[numberOfDaysCounter]);
+    numberOfDaysCounter++
+} while (numberOfDays < numberOfDays)
