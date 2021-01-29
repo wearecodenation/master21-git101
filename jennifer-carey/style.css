@@ -1,0 +1,170 @@
+/* ----- General Styles ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Roboto&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #297b3d;
+   color: #333333;
+   font-size: 1.125rem;
+}
+
+body, footer {
+   line-height: 1.5;
+   font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+   font-family: 'Corben', cursive;
+   letter-spacing: 0.1rem;
+}
+
+h1 {
+   font-size: 2.488rem;
+   color: white;
+}
+
+.h1-yellow {
+   color: #ffde38;
+}
+
+h2 {
+   font-size: 2.074rem;
+   padding-bottom: 0.5em;
+}
+
+a {
+   color: inherit;
+}
+
+a:hover {
+   color: white;
+}
+
+footer {
+   background-color: #297b3d;
+   color: #ffffff;
+   font-size: 0.8rem;
+   text-align: center;
+   padding: 1em 0;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+/* ----- Layout Styles ----- */
+
+.content-container {
+   width: 80%;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+header {
+   padding: 6em 0;
+}
+
+.header-flex {
+   display: flex;
+   align-items: flex-end;
+}
+
+.header-para {
+   color: #ffde38;
+   font-size: 1.25rem;
+   font-family: 'Corben', cursive;
+   font-weight: 400;
+}
+
+section {
+   padding-top: 3em;
+   padding-bottom: 7em;
+}
+
+.section-table {
+   background-color: #ffffff;
+}
+
+.section-video {
+   background-color: #efefef;
+}
+
+/* ----- Table Styles ----- */
+
+.table-songs {
+   border-collapse: collapse;
+   margin: 0 auto;
+   width: 60%;
+   min-width: 300px;
+   background-color: white;
+   color: #333333;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-caption {
+   text-align: left;
+   padding-bottom: 0.5em;
+}
+
+.table-header {
+   background-color: #7b3d29;
+   color: white;
+   font-size: 1.125rem;
+}
+
+.table-songs th {
+   padding: 0.7em 0.7em;
+}
+
+.table-songs td {
+   padding: 0.5em 0.5em;
+}
+
+.column-header {
+   font-weight: bold;
+}
+
+.table-songs tbody tr:nth-of-type(even) {
+   background-color: rgba(122, 61, 41, 0.2);
+}
+
+/* ----- Video Styles ----- */
+
+.video {
+   display: block;
+   margin: 0 auto;
+   width: 60%;
+   height: 350px;
+}
+
+/* ----- Media Queries ----- */
+
+@media (max-width:1000px) {
+   .content-container {
+      width: 85%;
+   }
+
+   .table-songs {
+      width: 100%;
+   }
+
+   .video {
+      width: 100%;
+   }
+}
+
+@media (max-width:600px) {
+   .content-container {
+      width: 90%;
+   }
+
+   .header-flex {
+      flex-direction: column;
+   }
+}

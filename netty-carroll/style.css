@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+/*Amatic SC*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&display=swap');
+/*Cinzel*/
+
+body {
+
+    background-color:black;
+}
+
+
+
+table, tr, td {
+border: 7px solid gray;
+width:50%;
+border-collapse:collapse;
+font-family: "Cinzel", serif;
+font-size:19px;
+line-height: 30px;
+color: antiquewhite;
+
+
+}
+
+h1, h2 {font-family: "Amatic SC", cursive;
+    color:antiquewhite;
+}
+
+

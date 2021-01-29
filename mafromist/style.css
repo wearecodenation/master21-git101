@@ -23,3 +23,23 @@ h1, h2, h3 {
 .original {
     padding-right: 10%;
 }
+
+footer {
+    background-color: teal;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer > a {
+    font-size: 15px;
+    text-decoration: double;
+    font-weight: bold;
+}
