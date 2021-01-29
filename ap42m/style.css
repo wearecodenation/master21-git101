@@ -5,3 +5,16 @@ table, th, td {
     border: 1px solid black;
     font-style: italic;
   }
+  
+}
+[id="links"]{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    font-size: small;
+} 
+
+  footer {
+      display: flex;
+      justify-content: space-evenly;
+  }
