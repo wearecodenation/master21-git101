@@ -1,5 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.github {
+    text-align: center;
+    font-family: "Permanent Marker", monospace;
+    font-size: 150%;
+}
 
 a {
     text-decoration: none;
@@ -73,4 +80,11 @@ iframe {
     padding-top: 10%;
     padding-bottom: 10%;
 
+}
+
+footer {
+    font-family: "Permanent Marker", monospace;
+    text-align: center;
+    font-size: 170%;
+    text-decoration: none;
 }
