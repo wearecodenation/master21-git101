@@ -7,12 +7,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Favourite Songs</h1>
-        <table>
-            <thead>
-                <tr colspan="2">My Current Favourite Songs</tr>
-            </thead>
-            <tbody>
+        <div class="container">
+            <h1>Favourite Songs</h1>
+            <table>
+                <th colspan="2">Favourite Songs, in no Particular Order</th>
                 <tr>
                     <td>Artist</td>
                     <td>Song</td>
@@ -41,9 +39,11 @@
                     <td>EDEN</td>
                     <td><a href="https://www.youtube.com/watch?v=geZ_5Ri7ANg">rock + roll</a></td>
                 </tr>
-            </tbody>
-        </table>
-        <p>However, this is probably my absolute favourite at the moment:</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SCYe0GC2M94" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </table>
+            <div class="favourite">
+                <p>However, this is probably my absolute favourite at the moment:</p>
+                <iframe src="https://www.youtube.com/embed/SCYe0GC2M94" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </body>
 </html>
