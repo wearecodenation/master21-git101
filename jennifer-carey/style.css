@@ -14,7 +14,7 @@ body {
    font-size: 1.125rem;
    line-height: 1.5;
    font-family: 'Roboto', sans-serif;
-   text-align: center;
+   /* text-align: center; */
 }
 
 h1, h2 {
@@ -24,9 +24,12 @@ h1, h2 {
 
 h1 {
    font-size: 2.488rem;
-   color: #ffde38;
    padding-top: 2em;
    padding-bottom: 1em;
+}
+
+.h1-yellow {
+   color: #ffde38;
 }
 
 h2 {
@@ -40,6 +43,10 @@ h2 {
    width: 80%;
    max-width: 1000px;
    margin: 0 auto;
+}
+
+header {
+   width: 40%;
 }
 
 .section {
