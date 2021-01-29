@@ -38,3 +38,36 @@ let footballTeams = [
 ];
 
 console.log(footballTeams);
+
+//Part 5 show a loop
+
+let boysNames = [
+    "Nathan",
+    "John",
+    "Thomas",
+    "Harrison"
+];
+
+for(let namesIndex=0; namesIndex<boysNames.length; namesIndex++){
+    console.log(boysNames[namesIndex]);
+}
+
+//Part 7 show a function
+
+let bankBalance = 2000;
+const pinNumber = 1234;
+
+const cashWithdrawal = (amount, pinEnter) =>{
+
+if (amount<bankBalance && pinNumber === pinEnter){ 
+
+console.log(`Withdraw ${amount} from account ${pinEnter}`);
+bankBalance = bankBalance - amount
+
+console.log(`Your new balance is £${bankBalance}`)
+
+    }
+}
+
+cashWithdrawal(500, 1234)
+cashWithdrawal(500,1234)

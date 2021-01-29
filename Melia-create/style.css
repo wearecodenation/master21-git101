@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&display=swap');
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td{
+      text-align: center;
+      background-color: lightgreen;
+  }
+
+  th{
+      font-family: Dancing Script;
+      font-size: 20pt;
+      font-style: oblique;
+      color: lightgreen;
+      background-color:darkslategray;
+  }
+
+  a{
+      text-decoration: none;
+      font-family: Indie Flower;
+      font-size: 16pt;
+      color: darkslategray;
+  }
+
+  .wrapper{
+      text-align: center;
+      margin: 100px;
+=======
+table, th, td {
+    border: 1px solid black;
+  }

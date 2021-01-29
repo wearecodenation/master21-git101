@@ -1,0 +1,10 @@
+* {
+    background-color: plum;
+    font-family: sans-serif;
+    
+}
+td{
+    font-style: italic;
+    text-shadow: hotpink 2px 4px 2px;
+    color: pink;
+}
