@@ -2,7 +2,7 @@
 
 First git project
 
-Amelia Riding [Github](https://github.com/Melia-create) [About Me](https://melia-create.github.io/aboutme/)
+Amelia Riding [Github] (https://github.com/Melia-create) [About Me] (https://melia-create.github.io/aboutme/
 [My Profile] (https://github.com/Malatezta)
 [My Page] (https://malatezta.github.io/)
 Carys Pritchard [git hub](https://github.com/carys23) [git profile](https://carys23.github.io)
