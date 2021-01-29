@@ -8,7 +8,7 @@ console.log(x)
 
 // 2. Showing an if statement
 
-let password = "stephanie"
+let password = "stephanie";
 
 if (password.length < 8){
     console.log("password must be 8 characters or more");
@@ -20,7 +20,7 @@ else{
 
 // 3. Showing a switch case
 
-let topping = "pinapple"
+let topping = "pinapple";
 
 switch (topping){
     case "Salami":
@@ -28,7 +28,7 @@ switch (topping){
     case "chilli":
     case "olives":
     case "anchovies":
-        console.log("This is a key pizza topping")
+        console.log("This is a key pizza topping");
         break;
     case "pinapple":
     case "courgettes":
@@ -53,13 +53,13 @@ let boatTypes = [
     "jeanneau",
     "hanse",
     "swan",
-    "oyster"
+    "oyster";
 ]
-console.log(boatTypes)
+console.log(boatTypes);
 
-boatTypes.push("Sigma")
+boatTypes.push("Sigma");
 
-console.log(boatTypes)
+console.log(boatTypes);
 
 // --------------------------
 
