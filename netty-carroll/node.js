@@ -1,13 +1,7 @@
-let top = "onions"
-switch(top){
-    case "mushrooms":
-        case "jalapenos":
-            console.log("these are important for my pizza");
-            break;
-            case "peppers":
-                case "onions":
-                    console.log(`i dont mind ${top} on my pizza`);
-                    break;
-                    case "sausage":
-                        case "pepperoni":
-                            console.log(`${top} does not belong on my pizza`);}
+let multiplesFive = [];
+for(let i = 0; i < 100; i++){
+    if (i % 5 == 0){
+        multiplesFive.push(i);
+    }
+}
+console.log('numbers between 0 and 100 that are divisible by 5 are: ${multiplesFive}.');
