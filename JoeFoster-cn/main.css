@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.github {
+    text-align: center;
+    font-family: "Permanent Marker", monospace;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(72, 72, 185);
+}
+
+a:hover, a:focus, a:active {
+    
+    font-size: 170%;
+}
+
+
+body {
+    position: relative;
+    padding: 0px;
+    background: -webkit-linear-gradient(left, #cfd9df, #e2ebf0); 
+    background: -o-linear-gradient(right, #2a59c7, #298854); 
+    background: -moz-linear-gradient(right, #93B874, #C9DCB9); 
+    background: linear-gradient(to right, #9fc0d4, #e2ebf0); 
+    background-color: #7feef1; 
+}
+
+h3 {
+    font-size: 170%;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+td {
+    font-family: "Amatic SC", monospace;
+    font-size: 150%;
+}
+
+thead,
+tfoot {
+    text-align: center;
+    color: rgb(106, 171, 209);
+    font-family: "Amatic SC", monospace;
+    font-size: 300%;
+    text-shadow: 2px 4px 2px black;
+}
+
+tbody,
+td {
+    text-align:center;
+    text-decoration: none !important;
+}
+
+
+
+iframe {
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.output {
+    background: #eee;
+}
+
+
+.table {
+    font-family: "Amatic SC", monospace;
+}
+
+.player {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+footer {
+    font-family: "Permanent Marker", monospace;
+    text-align: center;
+    font-size: 170%;
+    text-decoration: none;
+}

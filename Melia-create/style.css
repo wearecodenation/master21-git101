@@ -49,8 +49,13 @@ tr a{
 .wrapper{
       text-align: center;
       margin: 100px;
+
 }
 
 a:hover{
    text-decoration: underline;
 }
+
+table, th, td {
+    border: 1px solid black;
+  }
