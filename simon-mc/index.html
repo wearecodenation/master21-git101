@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <img id="pic" src="data:image/png;base64,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"
+    </div>
+
+    <div><h1>My Playlist</h1></div>
+
+<div><table id= table class="center">
+    <thead>
+        <tr>
+        <th colspan="3s">Favourites ATM</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.Radiohead- Nude</td>
+            <td>2.Elvis Presley- Devil In Disguise</td>
+            <td>3.Breakage- Stannup</td>
+        </tr>
+        <tr>
+            <td>4.Roy Orbison- In Dreams</td>
+            <td>5.Linkin Park- With You</td>
+            <td>6.Sub Focus- Solar System</td>
+        </tr>
+ </tbody>
+</table>
+</div>
+
+<div>
+    <iframe id= "vid" width="560" height="315" src="https://www.youtube.com/embed/4-aiSnnghQk" frameborder="8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+
+
+ 
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+table,
+td {
+    border: 1px solid #333;
+    
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+body { 
+    background-color: rgb(71, 81, 138);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+} 
+
+   h1 { color: azure; text-align: center; font-family: fantasy;}
+   
+   .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #vid{ margin-left: 33%;
+    size: 50%;
+  }
+  #pic{ margin-left:43%;}
+
+  #table{ font-family: cursive;}
+

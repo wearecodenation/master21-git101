@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+  background-color: plum;
+  font-family: sans-serif;
+}
+td {
+  font-style: italic;
+  text-shadow: hotpink 2px 4px 2px;
+  color: pink;
+}
+table th a {
+  font-style: italic;
+  text-shadow: hotpink 2px 4px 2px;
+  color: pink;
+  width: 50%;
+  font-size: xx-large;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: hotpink;
+  color: plum;
+  font-family: fantasy;
+  font-weight: 100 ;
+  text-shadow: chartreuse 2px 2px 2px;
+  font-size: x-large;
+}
