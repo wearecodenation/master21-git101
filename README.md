@@ -35,4 +35,4 @@ Le-Ann Wright -[Github Profile](https://github.com/LRWright) - [Portfolio](https
 Le-Ann Wright -[Github Profile](https://github.com/LRWright) - [Portfolio](https://lrwright.github.io/)
 Jordan Williams [Github profile](https://github.com/jthomasw88) - [portfolio](https://jthomasw88.github.io/profile-page/)
 Simon McNee- [Github Profile](https://github.com/simcnee)
-
+Adam Manley [Github Profile](https://github.com/ap42m/ap42m) -
