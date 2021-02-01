@@ -1,67 +1,59 @@
-head{
-    background-color: lightyellow;
+html {
+  scroll-behavior: smooth;
 }
+
 .header {
-    padding: 60px;
-    width: 100%;
-    text-align: center;
-    background:lightyellow;
-    color: red;
-    font-size: 30px;
-  }
-body{
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
+  padding: 60px;
+  text-align: center;
+  width: 100%;
+  background: lightyellow;
+  color: red;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+  background-image: url('./song.jpg');
+  
 }
-table, th, td {
+body {
+  background: lightyellow;
+
+}
+
+table,th,td {
   display: flax;
   flex-wrap: wrap;
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  table , th, td{
-      background: lightyellow;
-    font-family: 'Rock Salt', cursive;
-    padding: 20px; 
-    font-style: Roboto Mono;
-    caption-side: bottom;
-    color: #666;
-    text-align: center;
-    letter-spacing: 1px;
-  }
+  background: lightyellow;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table,th,td {
+  background: grey;
+  font-weight: bold;
+  padding: 20px;
+  font-style: Roboto Mono;
+  caption-side: bottom;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
 
-th, td {
- 
-    padding-left: 10px;
-  }
-  footer{
-     background: lightyellow;
-      font-size: 50px;
-      font-weight: bold;
-  }
-  .alert {
-    padding: 20px;
-    background-color: #f44336; /* Red */
-    color: white;
-    margin-bottom: 15px;
-    align-items: center;
-  }
+}
+th{
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 1px 1px black;
   
-=======
-table,
-td {
-    border: 1px solid #333;
 }
 
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
+th,td {
+  padding-left: 10px;
 }
+table { 
+  box-shadow: 10px 10px 5px #888;
+ }
 
-
-table th,td {
-    border: 1px,solid black;
-
+footer {
+  background: lightyellow;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px red;
 }
