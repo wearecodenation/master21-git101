@@ -18,15 +18,23 @@ function checkNum() {
 
 function numSwitch() {
 switch(num) {
-    case "5":
+    case 5:
         console.log(`You win! GGWP`);
-    case "6":
+        break;
+    case 6:
         console.log(`Close, but no cigar.`);
-    case "4":
-        console.log(`Only one off!`)
+        break;
+    case 4:
+        console.log(`Only one off!`);
+        break;
     default:
         console.log(`Not even close. Pathetic.`)
 }}
+
+let nums = [1,2,3,4,5,6,7,8,9,10];
+
+console.log(`Possible numbers: ${nums}`);
+console.log("If you role a 5, you win!");
 
 console.log(`Your number is ${num}`);
 numSwitch();
