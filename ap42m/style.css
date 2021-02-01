@@ -4,7 +4,7 @@ body{
 table, th, td {
     border: 1px solid black;
     font-style: italic;
-  }
+  
   
 }
 [id="links"]{
@@ -14,7 +14,7 @@ table, th, td {
     font-size: small;
 } 
 
-  footer {
+footer {
       display: flex;
       justify-content: space-evenly;
   }
