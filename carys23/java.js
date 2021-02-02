@@ -3,6 +3,8 @@ let countries =
 "Croatia",
 "Canada",
 "America",];
+    
+console.log(countries);
 
 
 for(let i = 0; i <countries.length; i++) 
@@ -14,7 +16,6 @@ if (countries ==3);
     
 console.log(countries);
 
- 
 if (countries ==3);
 {console.log (`I'm not sure where in America`);}
 console.log("America");
